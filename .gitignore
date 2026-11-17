@@ -1,0 +1,27 @@
+# Environment & Secrets (JANGAN DI-COMMIT)
+.env
+.env.backup
+.env.*.local
+
+# Logs & Debug
+logs/*
+!logs/.gitkeep
+*.log
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Dependencies & IDE
+vendor/
+node_modules/
+.idea/
+.vscode/
+
+# Temporary / Scratch Files
+scratch/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini

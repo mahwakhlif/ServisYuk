@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" width="1440" height="960" style="background:#ffffff; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="shadowSm" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- TITLE HEADER -->
+  <g transform="translate(80, 50)">
+    <rect width="160" height="26" rx="13" fill="#eef2ff" />
+    <text x="80" y="17" font-size="11" font-weight="700" fill="#4f46e5" text-anchor="middle">FIGMA UI KIT TOKENS</text>
+    <text x="0" y="55" font-family="'Outfit', sans-serif" font-size="32" font-weight="800" fill="#0f172a">ServisYuk Design System Component Library</text>
+    <text x="0" y="80" font-size="14" fill="#64748b">Tokens warna, tipografi, tombol, field formulir, dan status badges standar web ServisYuk.</text>
+  </g>
+
+  <!-- SECTION 1: COLOR PALETTE -->
+  <g transform="translate(80, 170)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">1. Palet Warna (Color Tokens)</text>
+    
+    <g transform="translate(0, 20)">
+      <!-- Primary -->
+      <rect width="140" height="90" rx="12" fill="#4f46e5" filter="url(#shadowSm)" />
+      <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Primary Indigo</text>
+      <text x="14" y="78" font-family="monospace" font-size="11" fill="#c7d2fe">#4F46E5</text>
+
+      <!-- Secondary Cyan -->
+      <g transform="translate(160, 0)">
+        <rect width="140" height="90" rx="12" fill="#06b6d4" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Secondary Cyan</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#ecfeff">#06B6D4</text>
+      </g>
+
+      <!-- Gradient -->
+      <g transform="translate(320, 0)">
+        <rect width="140" height="90" rx="12" fill="url(#gradPrimary)" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Brand Gradient</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#ffffff">135deg Dual</text>
+      </g>
+
+      <!-- Success Green -->
+      <g transform="translate(480, 0)">
+        <rect width="140" height="90" rx="12" fill="#10b981" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Success Green</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#ecfdf5">#10B981</text>
+      </g>
+
+      <!-- Warning Amber -->
+      <g transform="translate(640, 0)">
+        <rect width="140" height="90" rx="12" fill="#f59e0b" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Warning Amber</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#fffbeb">#F59E0B</text>
+      </g>
+
+      <!-- Dark Navy -->
+      <g transform="translate(800, 0)">
+        <rect width="140" height="90" rx="12" fill="#0f172a" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Dark Navy</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#94a3b8">#0F172A</text>
+      </g>
+
+      <!-- Light Neutral -->
+      <g transform="translate(960, 0)">
+        <rect width="140" height="90" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#0f172a">BG Light</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#64748b">#F8FAFC</text>
+      </g>
+
+      <!-- Purple AI -->
+      <g transform="translate(1120, 0)">
+        <rect width="140" height="90" rx="12" fill="#7e22ce" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">AI Purple</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#faf5ff">#7E22CE</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 2: BUTTONS -->
+  <g transform="translate(80, 340)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">2. Varian Tombol (Button Components)</text>
+    
+    <g transform="translate(0, 25)">
+      <!-- Primary Gradient -->
+      <rect width="190" height="48" rx="10" fill="url(#gradPrimary)" />
+      <text x="95" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Primary Gradient ✦</text>
+
+      <!-- Primary Solid -->
+      <g transform="translate(210, 0)">
+        <rect width="160" height="48" rx="10" fill="#4f46e5" />
+        <text x="80" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Primary Solid</text>
+      </g>
+
+      <!-- Secondary Outline -->
+      <g transform="translate(390, 0)">
+        <rect width="170" height="48" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+        <text x="85" y="30" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Secondary Outline</text>
+      </g>
+
+      <!-- Success Button -->
+      <g transform="translate(580, 0)">
+        <rect width="170" height="48" rx="10" fill="#10b981" />
+        <text x="85" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">✓ Konfirmasi Berhasil</text>
+      </g>
+
+      <!-- Danger Button -->
+      <g transform="translate(770, 0)">
+        <rect width="140" height="48" rx="10" fill="#ef4444" />
+        <text x="70" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Batalkan Tiket</text>
+      </g>
+
+      <!-- WhatsApp Button -->
+      <g transform="translate(930, 0)">
+        <rect width="200" height="48" rx="10" fill="#25d366" />
+        <text x="100" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">💬 Chat via WhatsApp</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 3: STATUS BADGES -->
+  <g transform="translate(80, 480)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">3. Lencana Status &amp; Tag (Status Pills)</text>
+    
+    <g transform="translate(0, 25)">
+      <!-- Menunggu -->
+      <rect width="130" height="32" rx="16" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.2" />
+      <text x="65" y="21" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle">● Menunggu</text>
+
+      <!-- Teknisi Ditugaskan -->
+      <g transform="translate(150, 0)">
+        <rect width="175" height="32" rx="16" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.2" />
+        <text x="87" y="21" font-size="12" font-weight="700" fill="#2563eb" text-anchor="middle">● Teknisi Ditugaskan</text>
+      </g>
+
+      <!-- Dalam Perjalanan -->
+      <g transform="translate(345, 0)">
+        <rect width="175" height="32" rx="16" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.2" />
+        <text x="87" y="21" font-size="12" font-weight="700" fill="#7c3aed" text-anchor="middle">🏍️ Dalam Perjalanan</text>
+      </g>
+
+      <!-- Selesai -->
+      <g transform="translate(540, 0)">
+        <rect width="130" height="32" rx="16" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.2" />
+        <text x="65" y="21" font-size="12" font-weight="700" fill="#059669" text-anchor="middle">✓ Selesai</text>
+      </g>
+
+      <!-- AI Verified -->
+      <g transform="translate(690, 0)">
+        <rect width="145" height="32" rx="16" fill="#fdf4ff" stroke="#f0abfc" stroke-width="1.2" />
+        <text x="72" y="21" font-size="12" font-weight="700" fill="#c026d3" text-anchor="middle">✦ AI Verified 24/7</text>
+      </g>
+
+      <!-- Dibatalkan -->
+      <g transform="translate(855, 0)">
+        <rect width="130" height="32" rx="16" fill="#fef2f2" stroke="#fecaca" stroke-width="1.2" />
+        <text x="65" y="21" font-size="12" font-weight="700" fill="#dc2626" text-anchor="middle">✕ Dibatalkan</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 4: FORM INPUTS -->
+  <g transform="translate(80, 600)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">4. Kontrol Formulir (Form Controls)</text>
+    
+    <g transform="translate(0, 25)">
+      <!-- Standard Input -->
+      <g>
+        <text x="0" y="0" font-size="12.5" font-weight="700" fill="#475569">Field Teks Standar</text>
+        <rect y="10" width="380" height="46" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" />
+        <text x="16" y="38" font-size="13.5" fill="#0f172a">Masukkan nomor ponsel atau email...</text>
+      </g>
+
+      <!-- Active Focus Input -->
+      <g transform="translate(420, 0)">
+        <text x="0" y="0" font-size="12.5" font-weight="700" fill="#4f46e5">Field Teks Aktif (Focus State)</text>
+        <rect y="10" width="380" height="46" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="2" />
+        <text x="16" y="38" font-size="13.5" font-weight="600" fill="#0f172a">0812-3456-7890|</text>
+      </g>
+
+      <!-- Select Dropdown -->
+      <g transform="translate(840, 0)">
+        <text x="0" y="0" font-size="12.5" font-weight="700" fill="#475569">Pilihan Dropdown</text>
+        <rect y="10" width="380" height="46" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" />
+        <text x="16" y="38" font-size="13.5" font-weight="600" fill="#0f172a">AC (Air Conditioner) Inverter</text>
+        <text x="350" y="38" font-size="14" fill="#64748b">▼</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 5: TYPOGRAPHY HIERARCHY -->
+  <g transform="translate(80, 750)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">5. Skala Tipografi (Typography Scale)</text>
+    
+    <g transform="translate(0, 30)">
+      <text x="0" y="24" font-family="'Outfit', sans-serif" font-size="32" font-weight="800" fill="#0f172a">Display Title (Outfit 32px Bold)</text>
+      <text x="600" y="24" font-family="'Outfit', sans-serif" font-size="22" font-weight="700" fill="#0f172a">Heading H2 (Outfit 22px Bold)</text>
+      
+      <text x="0" y="65" font-size="16" font-weight="600" fill="#334155">Body Lead Medium (Plus Jakarta Sans 16px Semibold)</text>
+      <text x="600" y="65" font-size="14" font-weight="400" fill="#64748b">Body Regular Description (Plus Jakarta Sans 14px Regular - line height 1.6)</text>
+
+      <text x="0" y="100" font-family="monospace" font-size="13" font-weight="700" fill="#4f46e5">Monospace Technical Token / Code: #SY-2026-0042 (13px)</text>
+      <text x="600" y="100" font-size="11.5" font-weight="700" fill="#94a3b8">CAPTION / OVERLINE BADGE TEXT (11.5px BOLD)</text>
+    </g>
+  </g>
+</svg>

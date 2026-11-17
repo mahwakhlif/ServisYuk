@@ -1,0 +1,15 @@
+# ==========================================================
+# Apache Configuration: ServisYuk
+# ==========================================================
+
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /jasa/
+
+    # Prevent direct access to sensitive directories and configuration files
+    RewriteRule ^(database|config|core|controllers|chatbot|logs)/ - [F,L,NC]
+    RewriteRule ^\.env - [F,L,NC]
+</IfModule>

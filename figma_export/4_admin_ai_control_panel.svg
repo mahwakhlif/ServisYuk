@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1080" width="1440" height="1080" style="background:#f8fafc; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="shadowMd" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06" />
+    </filter>
+  </defs>
+
+  <!-- ADMIN SIDEBAR -->
+  <g id="AdminSidebar">
+    <rect width="260" height="1080" fill="#0f172a" />
+    <g transform="translate(30, 36)">
+      <rect width="36" height="36" rx="9" fill="url(#gradPrimary)" />
+      <text x="48" y="25" font-family="'Outfit', sans-serif" font-size="22" font-weight="800" fill="#ffffff">Servis<tspan fill="#06b6d4">Yuk</tspan></text>
+      <text x="48" y="38" font-size="9" font-weight="700" fill="#ef4444">ADMIN CONTROL PANEL</text>
+    </g>
+
+    <g transform="translate(18, 120)">
+      <g transform="translate(0, 0)">
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">📊 Ringkasan Dashboard</text>
+      </g>
+      <g transform="translate(0, 50)">
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">👥 Kelola Pelanggan</text>
+      </g>
+      <g transform="translate(0, 100)">
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">👨‍🔧 Dispatch Teknisi</text>
+      </g>
+      <g transform="translate(0, 150)">
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">🛠️ Katalog Layanan &amp; Tarif</text>
+      </g>
+      <!-- Active Item: Konfigurasi AI -->
+      <g transform="translate(0, 200)">
+        <rect width="224" height="46" rx="10" fill="#4f46e5" />
+        <text x="20" y="29" font-size="16">🤖</text>
+        <text x="50" y="28" font-size="13.5" font-weight="700" fill="#ffffff">Konfigurasi AI Multi-Provider</text>
+      </g>
+      <g transform="translate(0, 260)">
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">📈 Laporan &amp; Keuangan</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- MAIN ADMIN BODY -->
+  <g transform="translate(260, 0)">
+    <!-- Topbar -->
+    <rect width="1180" height="76" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+    <text x="40" y="44" font-family="'Outfit', sans-serif" font-size="22" font-weight="800" fill="#0f172a">Konfigurasi AI Multi-Provider ServisYuk</text>
+    <rect x="940" y="24" width="190" height="30" rx="15" fill="#ecfdf5" stroke="#10b981" stroke-width="1" />
+    <text x="1035" y="44" font-size="11.5" font-weight="700" fill="#059669" text-anchor="middle">● ENGINE 24/7 ONLINE (99.8%)</text>
+
+    <!-- Content -->
+    <g transform="translate(40, 105)">
+      
+      <!-- Security Alert Notice -->
+      <g>
+        <rect width="1095" height="54" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" />
+        <text x="24" y="32" font-size="13" font-weight="600" fill="#1e40af">
+          🛡️ Keamanan Kredensial: Semua API Key disimpan terenkripsi dengan algoritma AES-256-CBC pada basis data MySQL. Kunci tidak disimpan sebagai plaintext.
+        </text>
+      </g>
+
+      <!-- Provider Selector Tabs -->
+      <g transform="translate(0, 80)">
+        <text x="0" y="20" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">Pilih Provider AI Aktif:</text>
+        
+        <g transform="translate(0, 35)">
+          <!-- Provider 1: Groq -->
+          <rect width="205" height="90" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+          <circle cx="35" cy="45" r="16" fill="#f97316" fill-opacity="0.2" />
+          <text x="35" y="52" font-size="16" text-anchor="middle">⚡</text>
+          <text x="65" y="40" font-size="14" font-weight="700" fill="#0f172a">Groq Cloud</text>
+          <text x="65" y="60" font-size="11" fill="#64748b">Ultra Cepat (Llama 3.3)</text>
+
+          <!-- Provider 2: Gemini (ACTIVE) -->
+          <g transform="translate(222, 0)">
+            <rect width="205" height="90" rx="14" fill="#eff6ff" stroke="#4f46e5" stroke-width="2.5" />
+            <circle cx="35" cy="45" r="16" fill="#4f46e5" />
+            <text x="35" y="52" font-size="16" fill="#ffffff" text-anchor="middle">✨</text>
+            <text x="65" y="38" font-size="14" font-weight="800" fill="#4f46e5">Google Gemini</text>
+            <text x="65" y="58" font-size="11" font-weight="600" fill="#1e40af">Gemini 3.8 Flash</text>
+            <rect x="145" y="10" width="50" height="18" rx="9" fill="#10b981" />
+            <text x="170" y="23" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">AKTIF</text>
+          </g>
+
+          <!-- Provider 3: NVIDIA NIM -->
+          <g transform="translate(444, 0)">
+            <rect width="205" height="90" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+            <circle cx="35" cy="45" r="16" fill="#16a34a" fill-opacity="0.2" />
+            <text x="35" y="52" font-size="16" text-anchor="middle">🟩</text>
+            <text x="65" y="40" font-size="14" font-weight="700" fill="#0f172a">NVIDIA NIM</text>
+            <text x="65" y="60" font-size="11" fill="#64748b">Llama 3.1 70B</text>
+          </g>
+
+          <!-- Provider 4: OpenAI -->
+          <g transform="translate(666, 0)">
+            <rect width="205" height="90" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+            <circle cx="35" cy="45" r="16" fill="#0f172a" fill-opacity="0.1" />
+            <text x="35" y="52" font-size="16" text-anchor="middle">🌐</text>
+            <text x="65" y="40" font-size="14" font-weight="700" fill="#0f172a">OpenAI</text>
+            <text x="65" y="60" font-size="11" fill="#64748b">GPT-4o Mini</text>
+          </g>
+
+          <!-- Provider 5: Custom Endpoint -->
+          <g transform="translate(888, 0)">
+            <rect width="205" height="90" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+            <circle cx="35" cy="45" r="16" fill="#9333ea" fill-opacity="0.2" />
+            <text x="35" y="52" font-size="16" text-anchor="middle">⚙️</text>
+            <text x="65" y="40" font-size="14" font-weight="700" fill="#0f172a">Custom Endpoint</text>
+            <text x="65" y="60" font-size="11" fill="#64748b">OpenAI Compatible</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- Form Settings Card (Y = 240) -->
+      <g transform="translate(0, 240)">
+        <rect width="1095" height="520" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        
+        <g transform="translate(36, 32)">
+          <text x="0" y="20" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">Parameter Konfigurasi Google Gemini (Aktif)</text>
+          
+          <!-- Field 1: Base URL -->
+          <g transform="translate(0, 50)">
+            <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Base URL (OpenAI-Compatible Endpoint) *</text>
+            <rect y="10" width="1020" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+            <text x="16" y="38" font-family="monospace" font-size="13.5" fill="#0f172a">https://generativelanguage.googleapis.com/v1beta/openai</text>
+          </g>
+
+          <!-- Field 2: API Key -->
+          <g transform="translate(0, 135)">
+            <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">API Key Google AI Studio * (Tersimpan Enkripsi AES-256)</text>
+            <rect y="10" width="1020" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+            <text x="16" y="38" font-family="monospace" font-size="13.5" fill="#0f172a">AIzaSyB*****************************w91k (Terproteksi)</text>
+            <rect x="890" y="18" width="115" height="30" rx="6" fill="#f1f5f9" />
+            <text x="947" y="38" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Ubah Kunci</text>
+          </g>
+
+          <!-- Field 3: Model Selector -->
+          <g transform="translate(0, 220)">
+            <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Pilih Model Utama (53 Model Terdeteksi) *</text>
+            <rect y="10" width="1020" height="46" rx="10" fill="#f8fafc" stroke="#4f46e5" stroke-width="1.8" />
+            <text x="16" y="38" font-family="monospace" font-size="13.5" font-weight="600" fill="#0f172a">gemini-3.8-flash (Rekomendasi Utama Google - Cepat &amp; Akurat)</text>
+            <text x="980" y="38" font-size="14" fill="#64748b">▼</text>
+          </g>
+
+          <!-- Buttons -->
+          <g transform="translate(0, 310)">
+            <rect width="180" height="46" rx="10" fill="#4f46e5" />
+            <text x="90" y="28" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">Simpan Perubahan</text>
+
+            <g transform="translate(200, 0)">
+              <rect width="230" height="46" rx="10" fill="#10b981" />
+              <text x="115" y="28" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">🧪 Test Connection (Chat Uji)</text>
+            </g>
+          </g>
+
+          <!-- Test Connection Success Result Box -->
+          <g transform="translate(0, 385)">
+            <rect width="1020" height="65" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="1.2" />
+            <text x="20" y="26" font-size="13" font-weight="700" fill="#15803d">✓ Status Koneksi Berhasil (HTTP 200 OK — Latensi: 340ms):</text>
+            <text x="20" y="48" font-size="13" fill="#166534">"Halo! Saya Asisten AI ServisYuk. Koneksi provider Google Gemini berhasil dan siap melayani diagnosa pelanggan."</text>
+          </g>
+        </g>
+      </g>
+
+    </g>
+  </g>
+</svg>

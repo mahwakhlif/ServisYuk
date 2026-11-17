@@ -1,0 +1,8 @@
+{
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "active_model": "qwen/qwen3.8-27b",
+    "fallback_model": "openai/gpt-oss-20b",
+    "base_url": "https://api.groq.com/openai/v1",
+    "updated_at": "2026-11-13 08:19:33"
+}

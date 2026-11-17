@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1080" width="1440" height="1080" style="background:#f8fafc; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="gradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <filter id="shadowLg" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4f46e5" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- NAVBAR -->
+  <g id="Navbar">
+    <rect width="1440" height="76" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+    <g transform="translate(80, 18)">
+      <rect width="40" height="40" rx="10" fill="url(#gradPrimary)" />
+      <text x="52" y="27" font-family="'Outfit', sans-serif" font-size="24" font-weight="800" fill="#0f172a">Servis<tspan fill="#4f46e5">Yuk</tspan></text>
+    </g>
+    <g transform="translate(420, 44)" font-size="14.5" font-weight="600" fill="#475569">
+      <text x="0" y="0">Beranda</text>
+      <text x="90" y="0">Layanan Servis</text>
+      <text x="220" y="0" fill="#4f46e5">Diagnosa AI 24 Jam</text>
+      <circle cx="280" cy="8" r="3" fill="#4f46e5" />
+      <text x="385" y="0">Lacak Tiket</text>
+    </g>
+  </g>
+
+  <!-- PAGE HEADER BANNER -->
+  <g id="HeaderBanner" transform="translate(80, 105)">
+    <rect width="1280" height="130" rx="20" fill="url(#gradDark)" />
+    <g transform="translate(40, 30)">
+      <rect width="180" height="28" rx="14" fill="#4f46e5" fill-opacity="0.3" stroke="#818cf8" stroke-width="1" />
+      <text x="90" y="19" font-size="11.5" font-weight="700" fill="#c7d2fe" text-anchor="middle">✦ SMART AI DIAGNOSTIC ENGINE</text>
+      <text x="0" y="62" font-family="'Outfit', sans-serif" font-size="28" font-weight="800" fill="#ffffff">AI Diagnostic Assistant &amp; Estimasi Biaya 24 Jam</text>
+      <text x="0" y="86" font-size="13.5" fill="#94a3b8">Konsultasikan keluhan alat elektronik Anda untuk mendapatkan analisa teknis terpercaya dan rentang biaya transparan.</text>
+    </g>
+    <g transform="translate(1080, 45)">
+      <rect width="150" height="40" rx="20" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.2" />
+      <text x="75" y="25" font-size="12" font-weight="700" fill="#10b981" text-anchor="middle">● MULTI-AI ACTIVE</text>
+    </g>
+  </g>
+
+  <!-- TWO COLUMN WIZARD LAYOUT -->
+  <g id="WizardBody" transform="translate(80, 260)">
+    
+    <!-- LEFT COLUMN: CONSULTATION FORM (W = 560) -->
+    <g id="FormCard">
+      <rect width="560" height="740" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowLg)" />
+      
+      <g transform="translate(36, 32)">
+        <text x="0" y="20" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#0f172a">1. Data Kerusakan Perangkat</text>
+        <text x="0" y="42" font-size="13" fill="#64748b">Lengkapi data agar AI dapat mendeteksi suku cadang yang tepat</text>
+        
+        <!-- Form Field 1: Category -->
+        <g transform="translate(0, 70)">
+          <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Kategori Peralatan *</text>
+          <rect y="10" width="488" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+          <text x="16" y="38" font-size="13.5" font-weight="600" fill="#0f172a">❄️ AC (Air Conditioner)</text>
+          <text x="460" y="38" font-size="14" fill="#64748b">▼</text>
+        </g>
+
+        <!-- Form Field 2: Merk & Tipe -->
+        <g transform="translate(0, 155)">
+          <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Merk / Brand Peralatan *</text>
+          <rect y="10" width="235" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+          <text x="16" y="38" font-size="13.5" font-weight="500" fill="#0f172a">Daikin Inverter</text>
+
+          <g transform="translate(253, 0)">
+            <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Tipe / Kapasitas</text>
+            <rect y="10" width="235" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+            <text x="16" y="38" font-size="13.5" font-weight="500" fill="#0f172a">1 PK (FTKQ25)</text>
+          </g>
+        </g>
+
+        <!-- Form Field 3: Usia Pemakaian -->
+        <g transform="translate(0, 240)">
+          <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Perkiraan Usia Pemakaian</text>
+          <rect y="10" width="488" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+          <text x="16" y="38" font-size="13.5" font-weight="500" fill="#0f172a">2 - 3 Tahun</text>
+          <text x="460" y="38" font-size="14" fill="#64748b">▼</text>
+        </g>
+
+        <!-- Form Field 4: Keluhan / Gejala -->
+        <g transform="translate(0, 325)">
+          <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Deskripsikan Gejala yang Dialami *</text>
+          <rect y="10" width="488" height="130" rx="10" fill="#f8fafc" stroke="#4f46e5" stroke-width="1.8" />
+          <text x="16" y="36" font-size="13" fill="#0f172a">AC menyala normal dan lampu indikator hijau, namun udara yang keluar</text>
+          <text x="16" y="58" font-size="13" fill="#0f172a">hanya seperti kipas angin biasa (tidak ada hawa dingin). Bagian pipa tembaga</text>
+          <text x="16" y="80" font-size="13" fill="#0f172a">pada unit outdoor sempat terlihat beku es tipis di pagi hari.</text>
+        </g>
+
+        <!-- Submit Button -->
+        <g transform="translate(0, 500)">
+          <rect width="488" height="52" rx="12" fill="url(#gradPrimary)" filter="url(#shadowLg)" />
+          <text x="244" y="32" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Mulai Analisis AI Sekarang ✦</text>
+        </g>
+
+        <text x="244" y="580" font-size="11.5" fill="#94a3b8" text-anchor="middle">🔒 Kerahasiaan data Anda terlindungi. Konsultasi tidak memungut biaya.</text>
+      </g>
+    </g>
+
+    <!-- RIGHT COLUMN: AI DIAGNOSIS RESULT CARD (W = 690) -->
+    <g id="ResultCard" transform="translate(590, 0)">
+      <rect width="690" height="740" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowLg)" />
+      
+      <!-- Result Card Header -->
+      <g transform="translate(36, 32)">
+        <rect width="130" height="26" rx="13" fill="#f3e8ff" stroke="#d8b4fe" stroke-width="1" />
+        <text x="65" y="17" font-size="11" font-weight="700" fill="#7e22ce" text-anchor="middle">✦ AI VERIFIED (94%)</text>
+        
+        <text x="0" y="54" font-family="'Outfit', sans-serif" font-size="22" font-weight="800" fill="#0f172a">2. Rekomendasi Hasil Diagnosa AI</text>
+        <text x="0" y="74" font-size="13" fill="#64748b">Analisis dihasilkan secara otomatis berdasarkan basis data kerusakan kompresor AC.</text>
+
+        <!-- Block 1: Technical Fault Analysis -->
+        <g transform="translate(0, 95)">
+          <rect width="618" height="90" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.2" />
+          <text x="20" y="26" font-size="12" font-weight="700" fill="#1d4ed8">🔍 INDIKASI PENYEBAB KERUSAKAN:</text>
+          <text x="20" y="50" font-size="14" font-weight="700" fill="#0f172a">Kebocoran Halus Freon (Refrigerant) &amp; Penumpukan Kotoran Evaporator</text>
+          <text x="20" y="72" font-size="12" fill="#475569">Pipa outdoor yang membeku menandakan tekanan freon di bawah normal (indikasi kuat kebocoran sistem sirkulasi).</text>
+        </g>
+
+        <!-- Block 2: DIY Safe Checks -->
+        <g transform="translate(0, 200)">
+          <rect width="618" height="85" rx="12" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.2" />
+          <text x="20" y="24" font-size="12" font-weight="700" fill="#15803d">🛠️ TINDAKAN MANDIRI SEMENTARA (DIY CHECKS):</text>
+          <text x="20" y="46" font-size="12.5" fill="#166534">1. Matikan unit AC segera untuk mencegah kompresor mengalami overheat dan rusak total.</text>
+          <text x="20" y="66" font-size="12.5" fill="#166534">2. Bersihkan filter jaring indoor dari debu tebal sebelum teknisi tiba di lokasi.</text>
+        </g>
+
+        <!-- Block 3: Safety Warning -->
+        <g transform="translate(0, 300)">
+          <rect width="618" height="65" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="1.2" />
+          <text x="20" y="24" font-size="12" font-weight="700" fill="#b91c1c">⚠️ PERINGATAN KESELAMATAN (SAFETY WARNING):</text>
+          <text x="20" y="46" font-size="12.5" fill="#991b1b">Jangan mencoba membongkar unit kompresor outdoor sendiri karena terdapat tegangan tinggi 220V dan gas bertekanan.</text>
+        </g>
+
+        <!-- Block 4: Transparent Cost Estimate Breakdown -->
+        <g transform="translate(0, 380)">
+          <rect width="618" height="150" rx="14" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5" />
+          <text x="20" y="28" font-size="12.5" font-weight="800" fill="#b45309">💰 ESTIMASI BIAYA PERBAIKAN TRANSPARAN:</text>
+          
+          <text x="20" y="58" font-size="13" fill="#78350f">• Biaya Inspeksi &amp; Uji Tekan Kebocoran</text>
+          <text x="590" y="58" font-size="13" font-weight="700" fill="#78350f" text-anchor="end">Rp 50.000 – Rp 75.000</text>
+          
+          <text x="20" y="84" font-size="13" fill="#78350f">• Perbaikan Flaring / Pengelasan Titik Bocor</text>
+          <text x="590" y="84" font-size="13" font-weight="700" fill="#78350f" text-anchor="end">Rp 120.000 – Rp 175.000</text>
+
+          <text x="20" y="110" font-size="13" fill="#78350f">• Isi Ulang Freon R32 / R410A Penuh (1 PK)</text>
+          <text x="590" y="110" font-size="13" font-weight="700" fill="#78350f" text-anchor="end">Rp 150.000 – Rp 200.000</text>
+          
+          <line x1="20" y1="122" x2="598" y2="122" stroke="#fcd34d" stroke-width="1.2" stroke-dasharray="4 4" />
+          <text x="20" y="140" font-size="13" font-weight="800" fill="#b45309">Total Perkiraan Biaya:</text>
+          <text x="590" y="140" font-size="15" font-weight="800" fill="#b45309" text-anchor="end">Rp 320.000 – Rp 450.000</text>
+        </g>
+
+        <!-- Final CTA Button -->
+        <g transform="translate(0, 550)">
+          <rect width="618" height="54" rx="12" fill="url(#gradPrimary)" filter="url(#shadowLg)" />
+          <text x="309" y="33" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Pesan Teknisi Berdasarkan Diagnosa Ini →</text>
+        </g>
+      </g>
+    </g>
+
+  </g>
+</svg>

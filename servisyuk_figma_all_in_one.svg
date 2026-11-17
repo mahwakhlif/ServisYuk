@@ -1,0 +1,1081 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7600 1350" width="7600" height="1350" style="background:#0f172a; font-family:'Plus Jakarta Sans', sans-serif;">
+  <text x="80" y="50" font-family="'Outfit', sans-serif" font-size="32" font-weight="800" fill="#ffffff">SERVISYUK FIGMA UI/UX DESIGN SYSTEM — 5 ARTHOARDS</text>
+  <text x="80" y="75" font-size="16" fill="#94a3b8">Import langsung file ini atau setiap file screen secara individual ke Figma Canvas</text>
+  
+  <!-- Frame 1: Landing Page -->
+  <g id="Frame1_LandingPage" transform="translate(80, 100)">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1280" width="1440" height="1280" style="background:#f8fafc; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="gradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <filter id="shadowMd" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+    <filter id="shadowLg" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4f46e5" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- TOP ANNOUNCEMENT BANNER -->
+  <g id="AnnouncementBar">
+    <rect width="1440" height="38" fill="url(#gradDark)" />
+    <text x="720" y="24" fill="#e2e8f0" font-size="12.5" font-weight="500" text-anchor="middle">
+      ✨ Layanan AI Diagnostic Triage 24 Jam Nonstop Kini Aktif — Dapatkan Estimasi Biaya dan Konsultasi Instan Gratis!
+    </text>
+  </g>
+
+  <!-- NAVBAR -->
+  <g id="Navbar" transform="translate(0, 38)">
+    <rect width="1440" height="76" fill="#ffffff" filter="url(#shadowMd)" />
+    
+    <!-- Logo -->
+    <g transform="translate(80, 18)">
+      <rect width="40" height="40" rx="10" fill="url(#gradPrimary)" />
+      <path d="M14 26 L26 14 M20 14 L26 14 L26 20 M14 20 L14 26 L20 26" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <text x="52" y="27" font-family="'Outfit', sans-serif" font-size="24" font-weight="800" fill="#0f172a">Servis<tspan fill="#4f46e5">Yuk</tspan></text>
+      <text x="162" y="16" font-size="9" font-weight="700" fill="#4f46e5" letter-spacing="0.5">AI POWERED</text>
+    </g>
+
+    <!-- Nav Links -->
+    <g transform="translate(420, 44)" font-size="14.5" font-weight="600" fill="#475569">
+      <text x="0" y="0" fill="#4f46e5">Beranda</text>
+      <circle cx="28" cy="8" r="3" fill="#4f46e5" />
+      <text x="90" y="0">Layanan Servis</text>
+      <text x="220" y="0">Diagnosa AI 24 Jam</text>
+      <text x="385" y="0">Lacak Tiket</text>
+      <text x="495" y="0">Tentang Kami</text>
+    </g>
+
+    <!-- Right CTA Buttons -->
+    <g transform="translate(1120, 18)">
+      <rect width="90" height="40" rx="8" fill="#f1f5f9" />
+      <text x="45" y="25" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle">Masuk</text>
+      
+      <g transform="translate(105, 0)">
+        <rect width="135" height="40" rx="8" fill="url(#gradPrimary)" />
+        <text x="67" y="25" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">Pesan Teknisi</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- HERO SECTION -->
+  <g id="HeroSection" transform="translate(80, 150)">
+    <!-- Left Column: Copywriting & CTAs -->
+    <g id="HeroContent" transform="translate(0, 40)">
+      <!-- Badge -->
+      <g>
+        <rect width="250" height="34" rx="17" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.2" />
+        <text x="22" y="22" font-size="12.5" font-weight="700" fill="#4f46e5">✦ AI Diagnostic Triage 24 Jam</text>
+      </g>
+
+      <!-- Main Headline -->
+      <text x="0" y="90" font-family="'Outfit', sans-serif" font-size="44" font-weight="800" fill="#0f172a" line-height="1.2">
+        Solusi Servis Elektronik Cerdas,
+      </text>
+      <text x="0" y="145" font-family="'Outfit', sans-serif" font-size="44" font-weight="800" fill="url(#gradPrimary)">
+        Transparan &amp; Bergaransi Resmi
+      </text>
+
+      <!-- Subtitle -->
+      <text x="0" y="195" font-size="16" fill="#64748b" line-height="1.6">
+        Ketahui akar kerusakan dan perkiraan biaya secara akurat dalam hitungan detik
+      </text>
+      <text x="0" y="220" font-size="16" fill="#64748b" line-height="1.6">
+        lewat asisten AI. Teknisi tersertifikasi kami siap datang langsung ke lokasi Anda.
+      </text>
+
+      <!-- CTA Buttons -->
+      <g transform="translate(0, 260)">
+        <rect width="220" height="52" rx="12" fill="url(#gradPrimary)" filter="url(#shadowLg)" />
+        <text x="110" y="32" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Coba AI Diagnosa Gratis ✦</text>
+
+        <g transform="translate(240, 0)">
+          <rect width="180" height="52" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+          <text x="90" y="32" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle">Pesan Teknisi</text>
+        </g>
+      </g>
+
+      <!-- Trust Badges -->
+      <g transform="translate(0, 360)">
+        <rect width="180" height="36" rx="8" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1" />
+        <text x="90" y="23" font-size="12" font-weight="700" fill="#059669" text-anchor="middle">✓ 100% Teknisi Terverifikasi</text>
+
+        <g transform="translate(195, 0)">
+          <rect width="170" height="36" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" />
+          <text x="85" y="23" font-size="12" font-weight="700" fill="#2563eb" text-anchor="middle">🛡️ Garansi Servis 30 Hari</text>
+        </g>
+
+        <g transform="translate(380, 0)">
+          <rect width="160" height="36" rx="8" fill="#fffbeb" stroke="#fde68a" stroke-width="1" />
+          <text x="80" y="23" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle">💰 Tarif Pasti Tanpa Nego</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right Column: Interactive Quick AI Card -->
+    <g id="HeroInteractiveCard" transform="translate(720, 10)">
+      <rect width="560" height="460" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowLg)" />
+      
+      <!-- Card Header -->
+      <rect width="560" height="70" rx="24" fill="url(#gradDark)" />
+      <rect width="560" height="30" y="40" fill="url(#gradDark)" />
+      <circle cx="40" cy="35" r="16" fill="url(#gradPrimary)" />
+      <text x="40" y="40" fill="#ffffff" font-size="14" text-anchor="middle">⚡</text>
+      <text x="68" y="32" font-family="'Outfit', sans-serif" font-size="17" font-weight="700" fill="#ffffff">AI Quick Triage Diagnostic</text>
+      <text x="68" y="52" font-size="12" fill="#94a3b8">Konsultasi interaktif langsung tanpa login</text>
+      <rect x="440" y="22" width="95" height="26" rx="13" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
+      <text x="487" y="39" font-size="11" font-weight="700" fill="#10b981" text-anchor="middle">● SIAGA 24 JAM</text>
+
+      <!-- Input Form Inside Card -->
+      <g transform="translate(32, 95)">
+        <text x="0" y="15" font-size="13" font-weight="700" fill="#334155">Pilih Kategori Perangkat:</text>
+        <rect y="25" width="496" height="44" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+        <text x="16" y="52" font-size="13.5" font-weight="500" fill="#0f172a">AC (Air Conditioner) Inverter / Split</text>
+        <text x="470" y="52" font-size="14" fill="#64748b">▼</text>
+      </g>
+
+      <g transform="translate(32, 185)">
+        <text x="0" y="15" font-size="13" font-weight="700" fill="#334155">Deskripsi Masalah / Gejala:</text>
+        <rect y="25" width="496" height="64" rx="10" fill="#f8fafc" stroke="#4f46e5" stroke-width="1.8" />
+        <text x="16" y="50" font-size="13" font-weight="500" fill="#0f172a">AC menyala tapi tidak dingin, kipas indoor berputar lambat...</text>
+      </g>
+
+      <!-- AI Live Result Box -->
+      <g transform="translate(32, 290)">
+        <rect width="496" height="85" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="1.2" />
+        <text x="18" y="26" font-size="12.5" font-weight="700" fill="#15803d">✦ Prediksi Diagnosa Awal:</text>
+        <text x="18" y="48" font-size="13" font-weight="600" fill="#0f172a">Kapasitor Fan Lemah / Evaporator Kotor Butuh Cuci Besar</text>
+        <text x="18" y="70" font-size="12" font-weight="700" fill="#047857">Estimasi Biaya: Rp 75.000 – Rp 150.000 (Garansi 30 Hari)</text>
+      </g>
+
+      <!-- Card CTA -->
+      <g transform="translate(32, 395)">
+        <rect width="496" height="44" rx="10" fill="url(#gradPrimary)" />
+        <text x="248" y="27" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Konsultasi Lengkap dengan Asisten AI →</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CATEGORY CARDS SECTION -->
+  <g id="CategorySection" transform="translate(80, 680)">
+    <text x="640" y="40" font-family="'Outfit', sans-serif" font-size="28" font-weight="800" fill="#0f172a" text-anchor="middle">
+      Kategori Layanan Servis Populer
+    </text>
+    <text x="640" y="70" font-size="15" fill="#64748b" text-anchor="middle">
+      Teknisi berpengalaman dengan sertifikasi resmi siap menangani peralatan elektronik Anda
+    </text>
+
+    <!-- 4 Category Cards Grid -->
+    <g transform="translate(0, 110)">
+      <!-- Card 1: AC -->
+      <g transform="translate(0, 0)">
+        <rect width="300" height="380" rx="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        <rect width="300" height="150" rx="18" fill="#eff6ff" />
+        <rect width="300" height="20" y="130" fill="#eff6ff" />
+        <circle cx="150" cy="75" r="38" fill="url(#gradPrimary)" />
+        <text x="150" y="85" font-size="30" fill="#ffffff" text-anchor="middle">❄️</text>
+        
+        <text x="150" y="190" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#0f172a" text-anchor="middle">Servis AC &amp; Pendingin</text>
+        <text x="150" y="215" font-size="13" fill="#64748b" text-anchor="middle">Cuci AC, tambah freon, ganti modul</text>
+        <text x="150" y="240" font-size="12" font-weight="700" fill="#4f46e5" text-anchor="middle">Biaya Inspeksi: Rp 50.000</text>
+        <text x="150" y="265" font-size="12" font-weight="600" fill="#059669" text-anchor="middle">● 48 Teknisi Siap Hari Ini</text>
+        
+        <g transform="translate(30, 305)">
+          <rect width="240" height="44" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+          <text x="120" y="27" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="middle">Pesan Servis AC</text>
+        </g>
+      </g>
+
+      <!-- Card 2: Kulkas -->
+      <g transform="translate(326, 0)">
+        <rect width="300" height="380" rx="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        <rect width="300" height="150" rx="18" fill="#f0fdfa" />
+        <rect width="300" height="20" y="130" fill="#f0fdfa" />
+        <circle cx="150" cy="75" r="38" fill="#0f766e" />
+        <text x="150" y="85" font-size="30" fill="#ffffff" text-anchor="middle">🧊</text>
+        
+        <text x="150" y="190" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#0f172a" text-anchor="middle">Kulkas &amp; Freezer</text>
+        <text x="150" y="215" font-size="13" fill="#64748b" text-anchor="middle">Tidak dingin, bocor air, ganti kompresor</text>
+        <text x="150" y="240" font-size="12" font-weight="700" fill="#0f766e" text-anchor="middle">Biaya Inspeksi: Rp 50.000</text>
+        <text x="150" y="265" font-size="12" font-weight="600" fill="#059669" text-anchor="middle">● 32 Teknisi Siap Hari Ini</text>
+        
+        <g transform="translate(30, 305)">
+          <rect width="240" height="44" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+          <text x="120" y="27" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="middle">Pesan Servis Kulkas</text>
+        </g>
+      </g>
+
+      <!-- Card 3: Mesin Cuci -->
+      <g transform="translate(652, 0)">
+        <rect width="300" height="380" rx="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        <rect width="300" height="150" rx="18" fill="#faf5ff" />
+        <rect width="300" height="20" y="130" fill="#faf5ff" />
+        <circle cx="150" cy="75" r="38" fill="#7e22ce" />
+        <text x="150" y="85" font-size="30" fill="#ffffff" text-anchor="middle">🧺</text>
+        
+        <text x="150" y="190" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#0f172a" text-anchor="middle">Mesin Cuci 1 &amp; 2 Tabung</text>
+        <text x="150" y="215" font-size="13" fill="#64748b" text-anchor="middle">Bocor air, error modul, tidak berputar</text>
+        <text x="150" y="240" font-size="12" font-weight="700" fill="#7e22ce" text-anchor="middle">Biaya Inspeksi: Rp 50.000</text>
+        <text x="150" y="265" font-size="12" font-weight="600" fill="#059669" text-anchor="middle">● 29 Teknisi Siap Hari Ini</text>
+        
+        <g transform="translate(30, 305)">
+          <rect width="240" height="44" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+          <text x="120" y="27" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="middle">Pesan Servis Mesin Cuci</text>
+        </g>
+      </g>
+
+      <!-- Card 4: Smart TV -->
+      <g transform="translate(978, 0)">
+        <rect width="300" height="380" rx="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        <rect width="300" height="150" rx="18" fill="#fffbeb" />
+        <rect width="300" height="20" y="130" fill="#fffbeb" />
+        <circle cx="150" cy="75" r="38" fill="#b45309" />
+        <text x="150" y="85" font-size="30" fill="#ffffff" text-anchor="middle">📺</text>
+        
+        <text x="150" y="190" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#0f172a" text-anchor="middle">Smart TV &amp; LED</text>
+        <text x="150" y="215" font-size="13" fill="#64748b" text-anchor="middle">Layar gelap, mati total, suara hilang</text>
+        <text x="150" y="240" font-size="12" font-weight="700" fill="#b45309" text-anchor="middle">Biaya Inspeksi: Rp 50.000</text>
+        <text x="150" y="265" font-size="12" font-weight="600" fill="#059669" text-anchor="middle">● 21 Teknisi Siap Hari Ini</text>
+        
+        <g transform="translate(30, 305)">
+          <rect width="240" height="44" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+          <text x="120" y="27" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="middle">Pesan Servis TV</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- FLOATING CHATBOT WIDGET BUTTON -->
+  <g id="FloatingChatbot" transform="translate(1330, 1170)" filter="url(#shadowLg)">
+    <circle cx="35" cy="35" r="35" fill="url(#gradPrimary)" />
+    <text x="35" y="44" font-size="30" fill="#ffffff" text-anchor="middle">🤖</text>
+    <rect x="-110" y="22" width="100" height="26" rx="13" fill="#0f172a" />
+    <text x="-60" y="39" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">AI Chat 24/7</text>
+    <circle cx="62" cy="10" r="7" fill="#10b981" stroke="#ffffff" stroke-width="2" />
+  </g>
+</svg>
+  </g>
+
+  <!-- Frame 2: AI Diagnostic -->
+  <g id="Frame2_AiDiagnostic" transform="translate(1580, 100)">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1080" width="1440" height="1080" style="background:#f8fafc; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="gradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <filter id="shadowLg" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4f46e5" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- NAVBAR -->
+  <g id="Navbar">
+    <rect width="1440" height="76" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+    <g transform="translate(80, 18)">
+      <rect width="40" height="40" rx="10" fill="url(#gradPrimary)" />
+      <text x="52" y="27" font-family="'Outfit', sans-serif" font-size="24" font-weight="800" fill="#0f172a">Servis<tspan fill="#4f46e5">Yuk</tspan></text>
+    </g>
+    <g transform="translate(420, 44)" font-size="14.5" font-weight="600" fill="#475569">
+      <text x="0" y="0">Beranda</text>
+      <text x="90" y="0">Layanan Servis</text>
+      <text x="220" y="0" fill="#4f46e5">Diagnosa AI 24 Jam</text>
+      <circle cx="280" cy="8" r="3" fill="#4f46e5" />
+      <text x="385" y="0">Lacak Tiket</text>
+    </g>
+  </g>
+
+  <!-- PAGE HEADER BANNER -->
+  <g id="HeaderBanner" transform="translate(80, 105)">
+    <rect width="1280" height="130" rx="20" fill="url(#gradDark)" />
+    <g transform="translate(40, 30)">
+      <rect width="180" height="28" rx="14" fill="#4f46e5" fill-opacity="0.3" stroke="#818cf8" stroke-width="1" />
+      <text x="90" y="19" font-size="11.5" font-weight="700" fill="#c7d2fe" text-anchor="middle">✦ SMART AI DIAGNOSTIC ENGINE</text>
+      <text x="0" y="62" font-family="'Outfit', sans-serif" font-size="28" font-weight="800" fill="#ffffff">AI Diagnostic Assistant &amp; Estimasi Biaya 24 Jam</text>
+      <text x="0" y="86" font-size="13.5" fill="#94a3b8">Konsultasikan keluhan alat elektronik Anda untuk mendapatkan analisa teknis terpercaya dan rentang biaya transparan.</text>
+    </g>
+    <g transform="translate(1080, 45)">
+      <rect width="150" height="40" rx="20" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.2" />
+      <text x="75" y="25" font-size="12" font-weight="700" fill="#10b981" text-anchor="middle">● MULTI-AI ACTIVE</text>
+    </g>
+  </g>
+
+  <!-- TWO COLUMN WIZARD LAYOUT -->
+  <g id="WizardBody" transform="translate(80, 260)">
+    
+    <!-- LEFT COLUMN: CONSULTATION FORM (W = 560) -->
+    <g id="FormCard">
+      <rect width="560" height="740" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowLg)" />
+      
+      <g transform="translate(36, 32)">
+        <text x="0" y="20" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#0f172a">1. Data Kerusakan Perangkat</text>
+        <text x="0" y="42" font-size="13" fill="#64748b">Lengkapi data agar AI dapat mendeteksi suku cadang yang tepat</text>
+        
+        <!-- Form Field 1: Category -->
+        <g transform="translate(0, 70)">
+          <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Kategori Peralatan *</text>
+          <rect y="10" width="488" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+          <text x="16" y="38" font-size="13.5" font-weight="600" fill="#0f172a">❄️ AC (Air Conditioner)</text>
+          <text x="460" y="38" font-size="14" fill="#64748b">▼</text>
+        </g>
+
+        <!-- Form Field 2: Merk & Tipe -->
+        <g transform="translate(0, 155)">
+          <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Merk / Brand Peralatan *</text>
+          <rect y="10" width="235" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+          <text x="16" y="38" font-size="13.5" font-weight="500" fill="#0f172a">Daikin Inverter</text>
+
+          <g transform="translate(253, 0)">
+            <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Tipe / Kapasitas</text>
+            <rect y="10" width="235" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+            <text x="16" y="38" font-size="13.5" font-weight="500" fill="#0f172a">1 PK (FTKQ25)</text>
+          </g>
+        </g>
+
+        <!-- Form Field 3: Usia Pemakaian -->
+        <g transform="translate(0, 240)">
+          <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Perkiraan Usia Pemakaian</text>
+          <rect y="10" width="488" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+          <text x="16" y="38" font-size="13.5" font-weight="500" fill="#0f172a">2 - 3 Tahun</text>
+          <text x="460" y="38" font-size="14" fill="#64748b">▼</text>
+        </g>
+
+        <!-- Form Field 4: Keluhan / Gejala -->
+        <g transform="translate(0, 325)">
+          <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Deskripsikan Gejala yang Dialami *</text>
+          <rect y="10" width="488" height="130" rx="10" fill="#f8fafc" stroke="#4f46e5" stroke-width="1.8" />
+          <text x="16" y="36" font-size="13" fill="#0f172a">AC menyala normal dan lampu indikator hijau, namun udara yang keluar</text>
+          <text x="16" y="58" font-size="13" fill="#0f172a">hanya seperti kipas angin biasa (tidak ada hawa dingin). Bagian pipa tembaga</text>
+          <text x="16" y="80" font-size="13" fill="#0f172a">pada unit outdoor sempat terlihat beku es tipis di pagi hari.</text>
+        </g>
+
+        <!-- Submit Button -->
+        <g transform="translate(0, 500)">
+          <rect width="488" height="52" rx="12" fill="url(#gradPrimary)" filter="url(#shadowLg)" />
+          <text x="244" y="32" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Mulai Analisis AI Sekarang ✦</text>
+        </g>
+
+        <text x="244" y="580" font-size="11.5" fill="#94a3b8" text-anchor="middle">🔒 Kerahasiaan data Anda terlindungi. Konsultasi tidak memungut biaya.</text>
+      </g>
+    </g>
+
+    <!-- RIGHT COLUMN: AI DIAGNOSIS RESULT CARD (W = 690) -->
+    <g id="ResultCard" transform="translate(590, 0)">
+      <rect width="690" height="740" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowLg)" />
+      
+      <!-- Result Card Header -->
+      <g transform="translate(36, 32)">
+        <rect width="130" height="26" rx="13" fill="#f3e8ff" stroke="#d8b4fe" stroke-width="1" />
+        <text x="65" y="17" font-size="11" font-weight="700" fill="#7e22ce" text-anchor="middle">✦ AI VERIFIED (94%)</text>
+        
+        <text x="0" y="54" font-family="'Outfit', sans-serif" font-size="22" font-weight="800" fill="#0f172a">2. Rekomendasi Hasil Diagnosa AI</text>
+        <text x="0" y="74" font-size="13" fill="#64748b">Analisis dihasilkan secara otomatis berdasarkan basis data kerusakan kompresor AC.</text>
+
+        <!-- Block 1: Technical Fault Analysis -->
+        <g transform="translate(0, 95)">
+          <rect width="618" height="90" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.2" />
+          <text x="20" y="26" font-size="12" font-weight="700" fill="#1d4ed8">🔍 INDIKASI PENYEBAB KERUSAKAN:</text>
+          <text x="20" y="50" font-size="14" font-weight="700" fill="#0f172a">Kebocoran Halus Freon (Refrigerant) &amp; Penumpukan Kotoran Evaporator</text>
+          <text x="20" y="72" font-size="12" fill="#475569">Pipa outdoor yang membeku menandakan tekanan freon di bawah normal (indikasi kuat kebocoran sistem sirkulasi).</text>
+        </g>
+
+        <!-- Block 2: DIY Safe Checks -->
+        <g transform="translate(0, 200)">
+          <rect width="618" height="85" rx="12" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.2" />
+          <text x="20" y="24" font-size="12" font-weight="700" fill="#15803d">🛠️ TINDAKAN MANDIRI SEMENTARA (DIY CHECKS):</text>
+          <text x="20" y="46" font-size="12.5" fill="#166534">1. Matikan unit AC segera untuk mencegah kompresor mengalami overheat dan rusak total.</text>
+          <text x="20" y="66" font-size="12.5" fill="#166534">2. Bersihkan filter jaring indoor dari debu tebal sebelum teknisi tiba di lokasi.</text>
+        </g>
+
+        <!-- Block 3: Safety Warning -->
+        <g transform="translate(0, 300)">
+          <rect width="618" height="65" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="1.2" />
+          <text x="20" y="24" font-size="12" font-weight="700" fill="#b91c1c">⚠️ PERINGATAN KESELAMATAN (SAFETY WARNING):</text>
+          <text x="20" y="46" font-size="12.5" fill="#991b1b">Jangan mencoba membongkar unit kompresor outdoor sendiri karena terdapat tegangan tinggi 220V dan gas bertekanan.</text>
+        </g>
+
+        <!-- Block 4: Transparent Cost Estimate Breakdown -->
+        <g transform="translate(0, 380)">
+          <rect width="618" height="150" rx="14" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5" />
+          <text x="20" y="28" font-size="12.5" font-weight="800" fill="#b45309">💰 ESTIMASI BIAYA PERBAIKAN TRANSPARAN:</text>
+          
+          <text x="20" y="58" font-size="13" fill="#78350f">• Biaya Inspeksi &amp; Uji Tekan Kebocoran</text>
+          <text x="590" y="58" font-size="13" font-weight="700" fill="#78350f" text-anchor="end">Rp 50.000 – Rp 75.000</text>
+          
+          <text x="20" y="84" font-size="13" fill="#78350f">• Perbaikan Flaring / Pengelasan Titik Bocor</text>
+          <text x="590" y="84" font-size="13" font-weight="700" fill="#78350f" text-anchor="end">Rp 120.000 – Rp 175.000</text>
+
+          <text x="20" y="110" font-size="13" fill="#78350f">• Isi Ulang Freon R32 / R410A Penuh (1 PK)</text>
+          <text x="590" y="110" font-size="13" font-weight="700" fill="#78350f" text-anchor="end">Rp 150.000 – Rp 200.000</text>
+          
+          <line x1="20" y1="122" x2="598" y2="122" stroke="#fcd34d" stroke-width="1.2" stroke-dasharray="4 4" />
+          <text x="20" y="140" font-size="13" font-weight="800" fill="#b45309">Total Perkiraan Biaya:</text>
+          <text x="590" y="140" font-size="15" font-weight="800" fill="#b45309" text-anchor="end">Rp 320.000 – Rp 450.000</text>
+        </g>
+
+        <!-- Final CTA Button -->
+        <g transform="translate(0, 550)">
+          <rect width="618" height="54" rx="12" fill="url(#gradPrimary)" filter="url(#shadowLg)" />
+          <text x="309" y="33" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Pesan Teknisi Berdasarkan Diagnosa Ini →</text>
+        </g>
+      </g>
+    </g>
+
+  </g>
+</svg>
+  </g>
+
+  <!-- Frame 3: Customer Portal -->
+  <g id="Frame3_CustomerPortal" transform="translate(3080, 100)">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1080" width="1440" height="1080" style="background:#f8fafc; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="gradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <filter id="shadowMd" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06" />
+    </filter>
+  </defs>
+
+  <!-- SIDEBAR (W = 260) -->
+  <g id="Sidebar">
+    <rect width="260" height="1080" fill="#0f172a" />
+    
+    <!-- Logo -->
+    <g transform="translate(30, 36)">
+      <rect width="36" height="36" rx="9" fill="url(#gradPrimary)" />
+      <text x="48" y="25" font-family="'Outfit', sans-serif" font-size="22" font-weight="800" fill="#ffffff">Servis<tspan fill="#06b6d4">Yuk</tspan></text>
+      <text x="48" y="38" font-size="9" font-weight="700" fill="#94a3b8">PORTAL PELANGGAN</text>
+    </g>
+
+    <!-- Nav Menu Items -->
+    <g transform="translate(18, 120)">
+      <!-- Active Item: Dashboard -->
+      <g>
+        <rect width="224" height="46" rx="10" fill="#4f46e5" />
+        <text x="20" y="29" font-size="16">📊</text>
+        <text x="50" y="28" font-size="13.5" font-weight="700" fill="#ffffff">Dashboard</text>
+      </g>
+
+      <!-- Item 2: Pesanan Saya -->
+      <g transform="translate(0, 56)">
+        <rect width="224" height="46" rx="10" fill="transparent" />
+        <text x="20" y="29" font-size="16">📅</text>
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">Pesanan Saya</text>
+        <rect x="180" y="14" width="28" height="20" rx="10" fill="#f59e0b" />
+        <text x="194" y="28" font-size="10.5" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+      </g>
+
+      <!-- Item 3: Riwayat Servis -->
+      <g transform="translate(0, 112)">
+        <rect width="224" height="46" rx="10" fill="transparent" />
+        <text x="20" y="29" font-size="16">🕒</text>
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">Riwayat Servis</text>
+      </g>
+
+      <!-- Item 4: Chat Diagnosa AI -->
+      <g transform="translate(0, 168)">
+        <rect width="224" height="46" rx="10" fill="transparent" />
+        <text x="20" y="29" font-size="16">🤖</text>
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">Chat Asisten AI 24/7</text>
+      </g>
+
+      <!-- Item 5: Profil -->
+      <g transform="translate(0, 224)">
+        <rect width="224" height="46" rx="10" fill="transparent" />
+        <text x="20" y="29" font-size="16">👤</text>
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">Profil Pengguna</text>
+      </g>
+    </g>
+
+    <!-- Bottom User Info -->
+    <g transform="translate(20, 990)">
+      <circle cx="20" cy="20" r="20" fill="url(#gradPrimary)" />
+      <text x="20" y="26" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">BS</text>
+      <text x="50" y="16" font-size="13" font-weight="700" fill="#ffffff">Budi Santoso</text>
+      <text x="50" y="32" font-size="11" fill="#94a3b8">0812-3456-7890</text>
+    </g>
+  </g>
+
+  <!-- MAIN DASHBOARD CONTENT -->
+  <g id="MainContent" transform="translate(260, 0)">
+    
+    <!-- Topbar -->
+    <g id="Topbar">
+      <rect width="1180" height="76" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+      <text x="40" y="44" font-family="'Outfit', sans-serif" font-size="22" font-weight="800" fill="#0f172a">Portal Pelanggan</text>
+      <text x="240" y="44" font-size="14" fill="#64748b">— Selamat datang kembali, Budi!</text>
+
+      <g transform="translate(980, 20)">
+        <rect width="160" height="38" rx="8" fill="url(#gradPrimary)" />
+        <text x="80" y="24" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">+ Pesan Servis Baru</text>
+      </g>
+    </g>
+
+    <!-- Content Area -->
+    <g transform="translate(40, 105)">
+      
+      <!-- 3 Summary Metrics -->
+      <g id="MetricCards">
+        <!-- Card 1 -->
+        <g transform="translate(0, 0)">
+          <rect width="345" height="100" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" filter="url(#shadowMd)" />
+          <circle cx="45" cy="50" r="24" fill="#eff6ff" />
+          <text x="45" y="56" font-size="20" text-anchor="middle">📅</text>
+          <text x="85" y="44" font-family="'Outfit', sans-serif" font-size="26" font-weight="800" fill="#0f172a">8</text>
+          <text x="85" y="66" font-size="12.5" font-weight="600" fill="#64748b">Total Pemesanan Servis</text>
+        </g>
+
+        <!-- Card 2 -->
+        <g transform="translate(375, 0)">
+          <rect width="345" height="100" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" filter="url(#shadowMd)" />
+          <circle cx="45" cy="50" r="24" fill="#fffbeb" />
+          <text x="45" y="56" font-size="20" text-anchor="middle">⏳</text>
+          <text x="85" y="44" font-family="'Outfit', sans-serif" font-size="26" font-weight="800" fill="#d97706">1 Aktif</text>
+          <text x="85" y="66" font-size="12.5" font-weight="600" fill="#64748b">Sedang Dalam Proses</text>
+        </g>
+
+        <!-- Card 3 -->
+        <g transform="translate(750, 0)">
+          <rect width="345" height="100" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" filter="url(#shadowMd)" />
+          <circle cx="45" cy="50" r="24" fill="#ecfdf5" />
+          <text x="45" y="56" font-size="20" text-anchor="middle">✓</text>
+          <text x="85" y="44" font-family="'Outfit', sans-serif" font-size="26" font-weight="800" fill="#059669">7 Selesai</text>
+          <text x="85" y="66" font-size="12.5" font-weight="600" fill="#64748b">Perbaikan Tuntas &amp; Bergaransi</text>
+        </g>
+      </g>
+
+      <!-- LIVE TRACKING STEPPER CARD (H = 260) -->
+      <g id="LiveTrackingCard" transform="translate(0, 130)">
+        <rect width="1095" height="260" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        
+        <g transform="translate(32, 28)">
+          <rect width="110" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" />
+          <text x="55" y="16" font-size="11" font-weight="700" fill="#2563eb" text-anchor="middle">● LIVE TRACKING</text>
+          <text x="125" y="18" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">Tiket Servis #SY-2026-0042</text>
+          <text x="125" y="38" font-size="13" fill="#64748b">Perbaikan AC Daikin Inverter 1 PK — Status Saat Ini: <tspan font-weight="700" fill="#4f46e5">Teknisi Sedang Menuju Lokasi</tspan></text>
+        </g>
+
+        <!-- 5-Step Stepper Component -->
+        <g transform="translate(60, 115)">
+          <!-- Connecting Line -->
+          <line x1="30" y1="25" x2="950" y2="25" stroke="#e2e8f0" stroke-width="4" />
+          <line x1="30" y1="25" x2="480" y2="25" stroke="#10b981" stroke-width="4" />
+
+          <!-- Step 1: Diterima (Done) -->
+          <g transform="translate(30, 25)">
+            <circle r="18" fill="#10b981" />
+            <text y="5" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">✓</text>
+            <text y="38" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">Booking Diterima</text>
+            <text y="54" font-size="10.5" fill="#64748b" text-anchor="middle">09:15 WIB</text>
+          </g>
+
+          <!-- Step 2: Teknisi Ditugaskan (Done) -->
+          <g transform="translate(250, 25)">
+            <circle r="18" fill="#10b981" />
+            <text y="5" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">✓</text>
+            <text y="38" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">Teknisi Disiapkan</text>
+            <text y="54" font-size="10.5" fill="#64748b" text-anchor="middle">09:40 WIB</text>
+          </g>
+
+          <!-- Step 3: Dalam Perjalanan (Active Pulsing) -->
+          <g transform="translate(480, 25)">
+            <circle r="22" fill="#4f46e5" fill-opacity="0.2" />
+            <circle r="16" fill="#4f46e5" />
+            <text y="5" font-size="14" fill="#ffffff" text-anchor="middle">🏍️</text>
+            <text y="42" font-size="12.5" font-weight="800" fill="#4f46e5" text-anchor="middle">Dalam Perjalanan</text>
+            <text y="58" font-size="11" font-weight="700" fill="#d97706" text-anchor="middle">ETA: 15 Menit Lagi</text>
+          </g>
+
+          <!-- Step 4: Inspeksi & Perbaikan (Pending) -->
+          <g transform="translate(710, 25)">
+            <circle r="16" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2" />
+            <text y="5" font-size="12" fill="#94a3b8" text-anchor="middle">4</text>
+            <text y="38" font-size="12" font-weight="600" fill="#94a3b8" text-anchor="middle">Pemeriksaan &amp; Servis</text>
+            <text y="54" font-size="10.5" fill="#cbd5e1" text-anchor="middle">Menunggu Tiba</text>
+          </g>
+
+          <!-- Step 5: Selesai & Invoice (Pending) -->
+          <g transform="translate(940, 25)">
+            <circle r="16" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2" />
+            <text y="5" font-size="12" fill="#94a3b8" text-anchor="middle">5</text>
+            <text y="38" font-size="12" font-weight="600" fill="#94a3b8" text-anchor="middle">Penyelesaian &amp; Invoice</text>
+            <text y="54" font-size="10.5" fill="#cbd5e1" text-anchor="middle">Menunggu Pembayaran</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- TWO COLUMNS BELOW (Y = 420) -->
+      <g transform="translate(0, 420)">
+        
+        <!-- Left: Assigned Technician Card (W = 530) -->
+        <g id="TechnicianCard">
+          <rect width="530" height="260" rx="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" filter="url(#shadowMd)" />
+          
+          <g transform="translate(32, 28)">
+            <text x="0" y="16" font-family="'Outfit', sans-serif" font-size="17" font-weight="700" fill="#0f172a">Teknisi Bertugas</text>
+            <text x="0" y="36" font-size="12.5" fill="#64748b">Mitra resmi berlisensi ServisYuk</text>
+
+            <g transform="translate(0, 55)">
+              <circle cx="36" cy="36" r="36" fill="url(#gradPrimary)" />
+              <text x="36" y="44" font-size="28" fill="#ffffff" text-anchor="middle">👨‍🔧</text>
+              
+              <g transform="translate(90, 10)">
+                <text x="0" y="15" font-size="16" font-weight="800" fill="#0f172a">Rahmat Hidayat</text>
+                <text x="0" y="34" font-size="12.5" font-weight="600" fill="#4f46e5">Spesialis HVAC &amp; AC Inverter</text>
+                <text x="0" y="52" font-size="12" font-weight="700" fill="#d97706">★ 4.9 (148 Ulasan Pelanggan)</text>
+              </g>
+            </g>
+
+            <!-- Buttons to Contact -->
+            <g transform="translate(0, 150)">
+              <rect width="220" height="42" rx="10" fill="#10b981" />
+              <text x="110" y="26" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">💬 Hubungi via WhatsApp</text>
+
+              <g transform="translate(235, 0)">
+                <rect width="220" height="42" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+                <text x="110" y="26" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">📞 Panggil Langsung</text>
+              </g>
+            </g>
+          </g>
+        </g>
+
+        <!-- Right: Order Details & Temporary Invoice (W = 540) -->
+        <g id="OrderSummaryCard" transform="translate(555, 0)">
+          <rect width="540" height="260" rx="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" filter="url(#shadowMd)" />
+          
+          <g transform="translate(32, 28)">
+            <text x="0" y="16" font-family="'Outfit', sans-serif" font-size="17" font-weight="700" fill="#0f172a">Rincian Tiket #SY-2026-0042</text>
+            <text x="0" y="36" font-size="12.5" fill="#64748b">Lokasi dan detail jadwal kedatangan</text>
+
+            <g transform="translate(0, 60)" font-size="13">
+              <text x="0" y="0" font-weight="700" fill="#475569">Jadwal:</text>
+              <text x="100" y="0" font-weight="600" fill="#0f172a">Hari ini, 14:00 – 16:00 WIB</text>
+
+              <text x="0" y="26" font-weight="700" fill="#475569">Perangkat:</text>
+              <text x="100" y="26" font-weight="600" fill="#0f172a">AC Daikin Flash Inverter 1 PK</text>
+
+              <text x="0" y="52" font-weight="700" fill="#475569">Keluhan:</text>
+              <text x="100" y="52" font-weight="500" fill="#0f172a">Tidak dingin, pipa outdoor berembun es</text>
+
+              <text x="0" y="78" font-weight="700" fill="#475569">Alamat:</text>
+              <text x="100" y="78" font-weight="500" fill="#0f172a">Jl. Melati No. 18, Kebayoran Baru, Jaksel</text>
+
+              <line x1="0" y1="95" x2="475" y2="95" stroke="#e2e8f0" stroke-width="1" />
+
+              <text x="0" y="120" font-weight="800" fill="#0f172a">Estimasi Tagihan Sementara:</text>
+              <text x="475" y="120" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#4f46e5" text-anchor="end">Rp 225.000</text>
+            </g>
+          </g>
+        </g>
+      </g>
+
+    </g>
+  </g>
+</svg>
+  </g>
+
+  <!-- Frame 4: Admin AI Config -->
+  <g id="Frame4_AdminAiConfig" transform="translate(4580, 100)">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1080" width="1440" height="1080" style="background:#f8fafc; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="shadowMd" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06" />
+    </filter>
+  </defs>
+
+  <!-- ADMIN SIDEBAR -->
+  <g id="AdminSidebar">
+    <rect width="260" height="1080" fill="#0f172a" />
+    <g transform="translate(30, 36)">
+      <rect width="36" height="36" rx="9" fill="url(#gradPrimary)" />
+      <text x="48" y="25" font-family="'Outfit', sans-serif" font-size="22" font-weight="800" fill="#ffffff">Servis<tspan fill="#06b6d4">Yuk</tspan></text>
+      <text x="48" y="38" font-size="9" font-weight="700" fill="#ef4444">ADMIN CONTROL PANEL</text>
+    </g>
+
+    <g transform="translate(18, 120)">
+      <g transform="translate(0, 0)">
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">📊 Ringkasan Dashboard</text>
+      </g>
+      <g transform="translate(0, 50)">
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">👥 Kelola Pelanggan</text>
+      </g>
+      <g transform="translate(0, 100)">
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">👨‍🔧 Dispatch Teknisi</text>
+      </g>
+      <g transform="translate(0, 150)">
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">🛠️ Katalog Layanan &amp; Tarif</text>
+      </g>
+      <!-- Active Item: Konfigurasi AI -->
+      <g transform="translate(0, 200)">
+        <rect width="224" height="46" rx="10" fill="#4f46e5" />
+        <text x="20" y="29" font-size="16">🤖</text>
+        <text x="50" y="28" font-size="13.5" font-weight="700" fill="#ffffff">Konfigurasi AI Multi-Provider</text>
+      </g>
+      <g transform="translate(0, 260)">
+        <text x="50" y="28" font-size="13.5" font-weight="600" fill="#94a3b8">📈 Laporan &amp; Keuangan</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- MAIN ADMIN BODY -->
+  <g transform="translate(260, 0)">
+    <!-- Topbar -->
+    <rect width="1180" height="76" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+    <text x="40" y="44" font-family="'Outfit', sans-serif" font-size="22" font-weight="800" fill="#0f172a">Konfigurasi AI Multi-Provider ServisYuk</text>
+    <rect x="940" y="24" width="190" height="30" rx="15" fill="#ecfdf5" stroke="#10b981" stroke-width="1" />
+    <text x="1035" y="44" font-size="11.5" font-weight="700" fill="#059669" text-anchor="middle">● ENGINE 24/7 ONLINE (99.8%)</text>
+
+    <!-- Content -->
+    <g transform="translate(40, 105)">
+      
+      <!-- Security Alert Notice -->
+      <g>
+        <rect width="1095" height="54" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" />
+        <text x="24" y="32" font-size="13" font-weight="600" fill="#1e40af">
+          🛡️ Keamanan Kredensial: Semua API Key disimpan terenkripsi dengan algoritma AES-256-CBC pada basis data MySQL. Kunci tidak disimpan sebagai plaintext.
+        </text>
+      </g>
+
+      <!-- Provider Selector Tabs -->
+      <g transform="translate(0, 80)">
+        <text x="0" y="20" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">Pilih Provider AI Aktif:</text>
+        
+        <g transform="translate(0, 35)">
+          <!-- Provider 1: Groq -->
+          <rect width="205" height="90" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+          <circle cx="35" cy="45" r="16" fill="#f97316" fill-opacity="0.2" />
+          <text x="35" y="52" font-size="16" text-anchor="middle">⚡</text>
+          <text x="65" y="40" font-size="14" font-weight="700" fill="#0f172a">Groq Cloud</text>
+          <text x="65" y="60" font-size="11" fill="#64748b">Ultra Cepat (Llama 3.3)</text>
+
+          <!-- Provider 2: Gemini (ACTIVE) -->
+          <g transform="translate(222, 0)">
+            <rect width="205" height="90" rx="14" fill="#eff6ff" stroke="#4f46e5" stroke-width="2.5" />
+            <circle cx="35" cy="45" r="16" fill="#4f46e5" />
+            <text x="35" y="52" font-size="16" fill="#ffffff" text-anchor="middle">✨</text>
+            <text x="65" y="38" font-size="14" font-weight="800" fill="#4f46e5">Google Gemini</text>
+            <text x="65" y="58" font-size="11" font-weight="600" fill="#1e40af">Gemini 3.8 Flash</text>
+            <rect x="145" y="10" width="50" height="18" rx="9" fill="#10b981" />
+            <text x="170" y="23" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">AKTIF</text>
+          </g>
+
+          <!-- Provider 3: NVIDIA NIM -->
+          <g transform="translate(444, 0)">
+            <rect width="205" height="90" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+            <circle cx="35" cy="45" r="16" fill="#16a34a" fill-opacity="0.2" />
+            <text x="35" y="52" font-size="16" text-anchor="middle">🟩</text>
+            <text x="65" y="40" font-size="14" font-weight="700" fill="#0f172a">NVIDIA NIM</text>
+            <text x="65" y="60" font-size="11" fill="#64748b">Llama 3.1 70B</text>
+          </g>
+
+          <!-- Provider 4: OpenAI -->
+          <g transform="translate(666, 0)">
+            <rect width="205" height="90" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+            <circle cx="35" cy="45" r="16" fill="#0f172a" fill-opacity="0.1" />
+            <text x="35" y="52" font-size="16" text-anchor="middle">🌐</text>
+            <text x="65" y="40" font-size="14" font-weight="700" fill="#0f172a">OpenAI</text>
+            <text x="65" y="60" font-size="11" fill="#64748b">GPT-4o Mini</text>
+          </g>
+
+          <!-- Provider 5: Custom Endpoint -->
+          <g transform="translate(888, 0)">
+            <rect width="205" height="90" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+            <circle cx="35" cy="45" r="16" fill="#9333ea" fill-opacity="0.2" />
+            <text x="35" y="52" font-size="16" text-anchor="middle">⚙️</text>
+            <text x="65" y="40" font-size="14" font-weight="700" fill="#0f172a">Custom Endpoint</text>
+            <text x="65" y="60" font-size="11" fill="#64748b">OpenAI Compatible</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- Form Settings Card (Y = 240) -->
+      <g transform="translate(0, 240)">
+        <rect width="1095" height="520" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        
+        <g transform="translate(36, 32)">
+          <text x="0" y="20" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">Parameter Konfigurasi Google Gemini (Aktif)</text>
+          
+          <!-- Field 1: Base URL -->
+          <g transform="translate(0, 50)">
+            <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Base URL (OpenAI-Compatible Endpoint) *</text>
+            <rect y="10" width="1020" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+            <text x="16" y="38" font-family="monospace" font-size="13.5" fill="#0f172a">https://generativelanguage.googleapis.com/v1beta/openai</text>
+          </g>
+
+          <!-- Field 2: API Key -->
+          <g transform="translate(0, 135)">
+            <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">API Key Google AI Studio * (Tersimpan Enkripsi AES-256)</text>
+            <rect y="10" width="1020" height="46" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+            <text x="16" y="38" font-family="monospace" font-size="13.5" fill="#0f172a">AIzaSyB*****************************w91k (Terproteksi)</text>
+            <rect x="890" y="18" width="115" height="30" rx="6" fill="#f1f5f9" />
+            <text x="947" y="38" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Ubah Kunci</text>
+          </g>
+
+          <!-- Field 3: Model Selector -->
+          <g transform="translate(0, 220)">
+            <text x="0" y="0" font-size="13" font-weight="700" fill="#334155">Pilih Model Utama (53 Model Terdeteksi) *</text>
+            <rect y="10" width="1020" height="46" rx="10" fill="#f8fafc" stroke="#4f46e5" stroke-width="1.8" />
+            <text x="16" y="38" font-family="monospace" font-size="13.5" font-weight="600" fill="#0f172a">gemini-3.8-flash (Rekomendasi Utama Google - Cepat &amp; Akurat)</text>
+            <text x="980" y="38" font-size="14" fill="#64748b">▼</text>
+          </g>
+
+          <!-- Buttons -->
+          <g transform="translate(0, 310)">
+            <rect width="180" height="46" rx="10" fill="#4f46e5" />
+            <text x="90" y="28" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">Simpan Perubahan</text>
+
+            <g transform="translate(200, 0)">
+              <rect width="230" height="46" rx="10" fill="#10b981" />
+              <text x="115" y="28" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">🧪 Test Connection (Chat Uji)</text>
+            </g>
+          </g>
+
+          <!-- Test Connection Success Result Box -->
+          <g transform="translate(0, 385)">
+            <rect width="1020" height="65" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="1.2" />
+            <text x="20" y="26" font-size="13" font-weight="700" fill="#15803d">✓ Status Koneksi Berhasil (HTTP 200 OK — Latensi: 340ms):</text>
+            <text x="20" y="48" font-size="13" fill="#166534">"Halo! Saya Asisten AI ServisYuk. Koneksi provider Google Gemini berhasil dan siap melayani diagnosa pelanggan."</text>
+          </g>
+        </g>
+      </g>
+
+    </g>
+  </g>
+</svg>
+  </g>
+
+  <!-- Frame 5: Design System -->
+  <g id="Frame5_DesignSystem" transform="translate(6080, 100)">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" width="1440" height="960" style="background:#ffffff; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="shadowSm" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- TITLE HEADER -->
+  <g transform="translate(80, 50)">
+    <rect width="160" height="26" rx="13" fill="#eef2ff" />
+    <text x="80" y="17" font-size="11" font-weight="700" fill="#4f46e5" text-anchor="middle">FIGMA UI KIT TOKENS</text>
+    <text x="0" y="55" font-family="'Outfit', sans-serif" font-size="32" font-weight="800" fill="#0f172a">ServisYuk Design System Component Library</text>
+    <text x="0" y="80" font-size="14" fill="#64748b">Tokens warna, tipografi, tombol, field formulir, dan status badges standar web ServisYuk.</text>
+  </g>
+
+  <!-- SECTION 1: COLOR PALETTE -->
+  <g transform="translate(80, 170)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">1. Palet Warna (Color Tokens)</text>
+    
+    <g transform="translate(0, 20)">
+      <!-- Primary -->
+      <rect width="140" height="90" rx="12" fill="#4f46e5" filter="url(#shadowSm)" />
+      <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Primary Indigo</text>
+      <text x="14" y="78" font-family="monospace" font-size="11" fill="#c7d2fe">#4F46E5</text>
+
+      <!-- Secondary Cyan -->
+      <g transform="translate(160, 0)">
+        <rect width="140" height="90" rx="12" fill="#06b6d4" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Secondary Cyan</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#ecfeff">#06B6D4</text>
+      </g>
+
+      <!-- Gradient -->
+      <g transform="translate(320, 0)">
+        <rect width="140" height="90" rx="12" fill="url(#gradPrimary)" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Brand Gradient</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#ffffff">135deg Dual</text>
+      </g>
+
+      <!-- Success Green -->
+      <g transform="translate(480, 0)">
+        <rect width="140" height="90" rx="12" fill="#10b981" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Success Green</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#ecfdf5">#10B981</text>
+      </g>
+
+      <!-- Warning Amber -->
+      <g transform="translate(640, 0)">
+        <rect width="140" height="90" rx="12" fill="#f59e0b" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Warning Amber</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#fffbeb">#F59E0B</text>
+      </g>
+
+      <!-- Dark Navy -->
+      <g transform="translate(800, 0)">
+        <rect width="140" height="90" rx="12" fill="#0f172a" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">Dark Navy</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#94a3b8">#0F172A</text>
+      </g>
+
+      <!-- Light Neutral -->
+      <g transform="translate(960, 0)">
+        <rect width="140" height="90" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#0f172a">BG Light</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#64748b">#F8FAFC</text>
+      </g>
+
+      <!-- Purple AI -->
+      <g transform="translate(1120, 0)">
+        <rect width="140" height="90" rx="12" fill="#7e22ce" filter="url(#shadowSm)" />
+        <text x="14" y="60" font-size="12" font-weight="700" fill="#ffffff">AI Purple</text>
+        <text x="14" y="78" font-family="monospace" font-size="11" fill="#faf5ff">#7E22CE</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 2: BUTTONS -->
+  <g transform="translate(80, 340)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">2. Varian Tombol (Button Components)</text>
+    
+    <g transform="translate(0, 25)">
+      <!-- Primary Gradient -->
+      <rect width="190" height="48" rx="10" fill="url(#gradPrimary)" />
+      <text x="95" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Primary Gradient ✦</text>
+
+      <!-- Primary Solid -->
+      <g transform="translate(210, 0)">
+        <rect width="160" height="48" rx="10" fill="#4f46e5" />
+        <text x="80" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Primary Solid</text>
+      </g>
+
+      <!-- Secondary Outline -->
+      <g transform="translate(390, 0)">
+        <rect width="170" height="48" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+        <text x="85" y="30" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Secondary Outline</text>
+      </g>
+
+      <!-- Success Button -->
+      <g transform="translate(580, 0)">
+        <rect width="170" height="48" rx="10" fill="#10b981" />
+        <text x="85" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">✓ Konfirmasi Berhasil</text>
+      </g>
+
+      <!-- Danger Button -->
+      <g transform="translate(770, 0)">
+        <rect width="140" height="48" rx="10" fill="#ef4444" />
+        <text x="70" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Batalkan Tiket</text>
+      </g>
+
+      <!-- WhatsApp Button -->
+      <g transform="translate(930, 0)">
+        <rect width="200" height="48" rx="10" fill="#25d366" />
+        <text x="100" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">💬 Chat via WhatsApp</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 3: STATUS BADGES -->
+  <g transform="translate(80, 480)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">3. Lencana Status &amp; Tag (Status Pills)</text>
+    
+    <g transform="translate(0, 25)">
+      <!-- Menunggu -->
+      <rect width="130" height="32" rx="16" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.2" />
+      <text x="65" y="21" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle">● Menunggu</text>
+
+      <!-- Teknisi Ditugaskan -->
+      <g transform="translate(150, 0)">
+        <rect width="175" height="32" rx="16" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.2" />
+        <text x="87" y="21" font-size="12" font-weight="700" fill="#2563eb" text-anchor="middle">● Teknisi Ditugaskan</text>
+      </g>
+
+      <!-- Dalam Perjalanan -->
+      <g transform="translate(345, 0)">
+        <rect width="175" height="32" rx="16" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.2" />
+        <text x="87" y="21" font-size="12" font-weight="700" fill="#7c3aed" text-anchor="middle">🏍️ Dalam Perjalanan</text>
+      </g>
+
+      <!-- Selesai -->
+      <g transform="translate(540, 0)">
+        <rect width="130" height="32" rx="16" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.2" />
+        <text x="65" y="21" font-size="12" font-weight="700" fill="#059669" text-anchor="middle">✓ Selesai</text>
+      </g>
+
+      <!-- AI Verified -->
+      <g transform="translate(690, 0)">
+        <rect width="145" height="32" rx="16" fill="#fdf4ff" stroke="#f0abfc" stroke-width="1.2" />
+        <text x="72" y="21" font-size="12" font-weight="700" fill="#c026d3" text-anchor="middle">✦ AI Verified 24/7</text>
+      </g>
+
+      <!-- Dibatalkan -->
+      <g transform="translate(855, 0)">
+        <rect width="130" height="32" rx="16" fill="#fef2f2" stroke="#fecaca" stroke-width="1.2" />
+        <text x="65" y="21" font-size="12" font-weight="700" fill="#dc2626" text-anchor="middle">✕ Dibatalkan</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 4: FORM INPUTS -->
+  <g transform="translate(80, 600)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">4. Kontrol Formulir (Form Controls)</text>
+    
+    <g transform="translate(0, 25)">
+      <!-- Standard Input -->
+      <g>
+        <text x="0" y="0" font-size="12.5" font-weight="700" fill="#475569">Field Teks Standar</text>
+        <rect y="10" width="380" height="46" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" />
+        <text x="16" y="38" font-size="13.5" fill="#0f172a">Masukkan nomor ponsel atau email...</text>
+      </g>
+
+      <!-- Active Focus Input -->
+      <g transform="translate(420, 0)">
+        <text x="0" y="0" font-size="12.5" font-weight="700" fill="#4f46e5">Field Teks Aktif (Focus State)</text>
+        <rect y="10" width="380" height="46" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="2" />
+        <text x="16" y="38" font-size="13.5" font-weight="600" fill="#0f172a">0812-3456-7890|</text>
+      </g>
+
+      <!-- Select Dropdown -->
+      <g transform="translate(840, 0)">
+        <text x="0" y="0" font-size="12.5" font-weight="700" fill="#475569">Pilihan Dropdown</text>
+        <rect y="10" width="380" height="46" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" />
+        <text x="16" y="38" font-size="13.5" font-weight="600" fill="#0f172a">AC (Air Conditioner) Inverter</text>
+        <text x="350" y="38" font-size="14" fill="#64748b">▼</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 5: TYPOGRAPHY HIERARCHY -->
+  <g transform="translate(80, 750)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#0f172a">5. Skala Tipografi (Typography Scale)</text>
+    
+    <g transform="translate(0, 30)">
+      <text x="0" y="24" font-family="'Outfit', sans-serif" font-size="32" font-weight="800" fill="#0f172a">Display Title (Outfit 32px Bold)</text>
+      <text x="600" y="24" font-family="'Outfit', sans-serif" font-size="22" font-weight="700" fill="#0f172a">Heading H2 (Outfit 22px Bold)</text>
+      
+      <text x="0" y="65" font-size="16" font-weight="600" fill="#334155">Body Lead Medium (Plus Jakarta Sans 16px Semibold)</text>
+      <text x="600" y="65" font-size="14" font-weight="400" fill="#64748b">Body Regular Description (Plus Jakarta Sans 14px Regular - line height 1.6)</text>
+
+      <text x="0" y="100" font-family="monospace" font-size="13" font-weight="700" fill="#4f46e5">Monospace Technical Token / Code: #SY-2026-0042 (13px)</text>
+      <text x="600" y="100" font-size="11.5" font-weight="700" fill="#94a3b8">CAPTION / OVERLINE BADGE TEXT (11.5px BOLD)</text>
+    </g>
+  </g>
+</svg>
+  </g>
+</svg>

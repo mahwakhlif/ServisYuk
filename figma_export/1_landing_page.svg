@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1280" width="1440" height="1280" style="background:#f8fafc; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="gradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <filter id="shadowMd" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+    <filter id="shadowLg" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4f46e5" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- TOP ANNOUNCEMENT BANNER -->
+  <g id="AnnouncementBar">
+    <rect width="1440" height="38" fill="url(#gradDark)" />
+    <text x="720" y="24" fill="#e2e8f0" font-size="12.5" font-weight="500" text-anchor="middle">
+      ✨ Layanan AI Diagnostic Triage 24 Jam Nonstop Kini Aktif — Dapatkan Estimasi Biaya dan Konsultasi Instan Gratis!
+    </text>
+  </g>
+
+  <!-- NAVBAR -->
+  <g id="Navbar" transform="translate(0, 38)">
+    <rect width="1440" height="76" fill="#ffffff" filter="url(#shadowMd)" />
+    
+    <!-- Logo -->
+    <g transform="translate(80, 18)">
+      <rect width="40" height="40" rx="10" fill="url(#gradPrimary)" />
+      <path d="M14 26 L26 14 M20 14 L26 14 L26 20 M14 20 L14 26 L20 26" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <text x="52" y="27" font-family="'Outfit', sans-serif" font-size="24" font-weight="800" fill="#0f172a">Servis<tspan fill="#4f46e5">Yuk</tspan></text>
+      <text x="162" y="16" font-size="9" font-weight="700" fill="#4f46e5" letter-spacing="0.5">AI POWERED</text>
+    </g>
+
+    <!-- Nav Links -->
+    <g transform="translate(420, 44)" font-size="14.5" font-weight="600" fill="#475569">
+      <text x="0" y="0" fill="#4f46e5">Beranda</text>
+      <circle cx="28" cy="8" r="3" fill="#4f46e5" />
+      <text x="90" y="0">Layanan Servis</text>
+      <text x="220" y="0">Diagnosa AI 24 Jam</text>
+      <text x="385" y="0">Lacak Tiket</text>
+      <text x="495" y="0">Tentang Kami</text>
+    </g>
+
+    <!-- Right CTA Buttons -->
+    <g transform="translate(1120, 18)">
+      <rect width="90" height="40" rx="8" fill="#f1f5f9" />
+      <text x="45" y="25" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle">Masuk</text>
+      
+      <g transform="translate(105, 0)">
+        <rect width="135" height="40" rx="8" fill="url(#gradPrimary)" />
+        <text x="67" y="25" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">Pesan Teknisi</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- HERO SECTION -->
+  <g id="HeroSection" transform="translate(80, 150)">
+    <!-- Left Column: Copywriting & CTAs -->
+    <g id="HeroContent" transform="translate(0, 40)">
+      <!-- Badge -->
+      <g>
+        <rect width="250" height="34" rx="17" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.2" />
+        <text x="22" y="22" font-size="12.5" font-weight="700" fill="#4f46e5">✦ AI Diagnostic Triage 24 Jam</text>
+      </g>
+
+      <!-- Main Headline -->
+      <text x="0" y="90" font-family="'Outfit', sans-serif" font-size="44" font-weight="800" fill="#0f172a" line-height="1.2">
+        Solusi Servis Elektronik Cerdas,
+      </text>
+      <text x="0" y="145" font-family="'Outfit', sans-serif" font-size="44" font-weight="800" fill="url(#gradPrimary)">
+        Transparan &amp; Bergaransi Resmi
+      </text>
+
+      <!-- Subtitle -->
+      <text x="0" y="195" font-size="16" fill="#64748b" line-height="1.6">
+        Ketahui akar kerusakan dan perkiraan biaya secara akurat dalam hitungan detik
+      </text>
+      <text x="0" y="220" font-size="16" fill="#64748b" line-height="1.6">
+        lewat asisten AI. Teknisi tersertifikasi kami siap datang langsung ke lokasi Anda.
+      </text>
+
+      <!-- CTA Buttons -->
+      <g transform="translate(0, 260)">
+        <rect width="220" height="52" rx="12" fill="url(#gradPrimary)" filter="url(#shadowLg)" />
+        <text x="110" y="32" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Coba AI Diagnosa Gratis ✦</text>
+
+        <g transform="translate(240, 0)">
+          <rect width="180" height="52" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+          <text x="90" y="32" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle">Pesan Teknisi</text>
+        </g>
+      </g>
+
+      <!-- Trust Badges -->
+      <g transform="translate(0, 360)">
+        <rect width="180" height="36" rx="8" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1" />
+        <text x="90" y="23" font-size="12" font-weight="700" fill="#059669" text-anchor="middle">✓ 100% Teknisi Terverifikasi</text>
+
+        <g transform="translate(195, 0)">
+          <rect width="170" height="36" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" />
+          <text x="85" y="23" font-size="12" font-weight="700" fill="#2563eb" text-anchor="middle">🛡️ Garansi Servis 30 Hari</text>
+        </g>
+
+        <g transform="translate(380, 0)">
+          <rect width="160" height="36" rx="8" fill="#fffbeb" stroke="#fde68a" stroke-width="1" />
+          <text x="80" y="23" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle">💰 Tarif Pasti Tanpa Nego</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right Column: Interactive Quick AI Card -->
+    <g id="HeroInteractiveCard" transform="translate(720, 10)">
+      <rect width="560" height="460" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowLg)" />
+      
+      <!-- Card Header -->
+      <rect width="560" height="70" rx="24" fill="url(#gradDark)" />
+      <rect width="560" height="30" y="40" fill="url(#gradDark)" />
+      <circle cx="40" cy="35" r="16" fill="url(#gradPrimary)" />
+      <text x="40" y="40" fill="#ffffff" font-size="14" text-anchor="middle">⚡</text>
+      <text x="68" y="32" font-family="'Outfit', sans-serif" font-size="17" font-weight="700" fill="#ffffff">AI Quick Triage Diagnostic</text>
+      <text x="68" y="52" font-size="12" fill="#94a3b8">Konsultasi interaktif langsung tanpa login</text>
+      <rect x="440" y="22" width="95" height="26" rx="13" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
+      <text x="487" y="39" font-size="11" font-weight="700" fill="#10b981" text-anchor="middle">● SIAGA 24 JAM</text>
+
+      <!-- Input Form Inside Card -->
+      <g transform="translate(32, 95)">
+        <text x="0" y="15" font-size="13" font-weight="700" fill="#334155">Pilih Kategori Perangkat:</text>
+        <rect y="25" width="496" height="44" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+        <text x="16" y="52" font-size="13.5" font-weight="500" fill="#0f172a">AC (Air Conditioner) Inverter / Split</text>
+        <text x="470" y="52" font-size="14" fill="#64748b">▼</text>
+      </g>
+
+      <g transform="translate(32, 185)">
+        <text x="0" y="15" font-size="13" font-weight="700" fill="#334155">Deskripsi Masalah / Gejala:</text>
+        <rect y="25" width="496" height="64" rx="10" fill="#f8fafc" stroke="#4f46e5" stroke-width="1.8" />
+        <text x="16" y="50" font-size="13" font-weight="500" fill="#0f172a">AC menyala tapi tidak dingin, kipas indoor berputar lambat...</text>
+      </g>
+
+      <!-- AI Live Result Box -->
+      <g transform="translate(32, 290)">
+        <rect width="496" height="85" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="1.2" />
+        <text x="18" y="26" font-size="12.5" font-weight="700" fill="#15803d">✦ Prediksi Diagnosa Awal:</text>
+        <text x="18" y="48" font-size="13" font-weight="600" fill="#0f172a">Kapasitor Fan Lemah / Evaporator Kotor Butuh Cuci Besar</text>
+        <text x="18" y="70" font-size="12" font-weight="700" fill="#047857">Estimasi Biaya: Rp 75.000 – Rp 150.000 (Garansi 30 Hari)</text>
+      </g>
+
+      <!-- Card CTA -->
+      <g transform="translate(32, 395)">
+        <rect width="496" height="44" rx="10" fill="url(#gradPrimary)" />
+        <text x="248" y="27" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Konsultasi Lengkap dengan Asisten AI →</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CATEGORY CARDS SECTION -->
+  <g id="CategorySection" transform="translate(80, 680)">
+    <text x="640" y="40" font-family="'Outfit', sans-serif" font-size="28" font-weight="800" fill="#0f172a" text-anchor="middle">
+      Kategori Layanan Servis Populer
+    </text>
+    <text x="640" y="70" font-size="15" fill="#64748b" text-anchor="middle">
+      Teknisi berpengalaman dengan sertifikasi resmi siap menangani peralatan elektronik Anda
+    </text>
+
+    <!-- 4 Category Cards Grid -->
+    <g transform="translate(0, 110)">
+      <!-- Card 1: AC -->
+      <g transform="translate(0, 0)">
+        <rect width="300" height="380" rx="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        <rect width="300" height="150" rx="18" fill="#eff6ff" />
+        <rect width="300" height="20" y="130" fill="#eff6ff" />
+        <circle cx="150" cy="75" r="38" fill="url(#gradPrimary)" />
+        <text x="150" y="85" font-size="30" fill="#ffffff" text-anchor="middle">❄️</text>
+        
+        <text x="150" y="190" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#0f172a" text-anchor="middle">Servis AC &amp; Pendingin</text>
+        <text x="150" y="215" font-size="13" fill="#64748b" text-anchor="middle">Cuci AC, tambah freon, ganti modul</text>
+        <text x="150" y="240" font-size="12" font-weight="700" fill="#4f46e5" text-anchor="middle">Biaya Inspeksi: Rp 50.000</text>
+        <text x="150" y="265" font-size="12" font-weight="600" fill="#059669" text-anchor="middle">● 48 Teknisi Siap Hari Ini</text>
+        
+        <g transform="translate(30, 305)">
+          <rect width="240" height="44" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+          <text x="120" y="27" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="middle">Pesan Servis AC</text>
+        </g>
+      </g>
+
+      <!-- Card 2: Kulkas -->
+      <g transform="translate(326, 0)">
+        <rect width="300" height="380" rx="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        <rect width="300" height="150" rx="18" fill="#f0fdfa" />
+        <rect width="300" height="20" y="130" fill="#f0fdfa" />
+        <circle cx="150" cy="75" r="38" fill="#0f766e" />
+        <text x="150" y="85" font-size="30" fill="#ffffff" text-anchor="middle">🧊</text>
+        
+        <text x="150" y="190" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#0f172a" text-anchor="middle">Kulkas &amp; Freezer</text>
+        <text x="150" y="215" font-size="13" fill="#64748b" text-anchor="middle">Tidak dingin, bocor air, ganti kompresor</text>
+        <text x="150" y="240" font-size="12" font-weight="700" fill="#0f766e" text-anchor="middle">Biaya Inspeksi: Rp 50.000</text>
+        <text x="150" y="265" font-size="12" font-weight="600" fill="#059669" text-anchor="middle">● 32 Teknisi Siap Hari Ini</text>
+        
+        <g transform="translate(30, 305)">
+          <rect width="240" height="44" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+          <text x="120" y="27" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="middle">Pesan Servis Kulkas</text>
+        </g>
+      </g>
+
+      <!-- Card 3: Mesin Cuci -->
+      <g transform="translate(652, 0)">
+        <rect width="300" height="380" rx="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        <rect width="300" height="150" rx="18" fill="#faf5ff" />
+        <rect width="300" height="20" y="130" fill="#faf5ff" />
+        <circle cx="150" cy="75" r="38" fill="#7e22ce" />
+        <text x="150" y="85" font-size="30" fill="#ffffff" text-anchor="middle">🧺</text>
+        
+        <text x="150" y="190" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#0f172a" text-anchor="middle">Mesin Cuci 1 &amp; 2 Tabung</text>
+        <text x="150" y="215" font-size="13" fill="#64748b" text-anchor="middle">Bocor air, error modul, tidak berputar</text>
+        <text x="150" y="240" font-size="12" font-weight="700" fill="#7e22ce" text-anchor="middle">Biaya Inspeksi: Rp 50.000</text>
+        <text x="150" y="265" font-size="12" font-weight="600" fill="#059669" text-anchor="middle">● 29 Teknisi Siap Hari Ini</text>
+        
+        <g transform="translate(30, 305)">
+          <rect width="240" height="44" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+          <text x="120" y="27" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="middle">Pesan Servis Mesin Cuci</text>
+        </g>
+      </g>
+
+      <!-- Card 4: Smart TV -->
+      <g transform="translate(978, 0)">
+        <rect width="300" height="380" rx="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadowMd)" />
+        <rect width="300" height="150" rx="18" fill="#fffbeb" />
+        <rect width="300" height="20" y="130" fill="#fffbeb" />
+        <circle cx="150" cy="75" r="38" fill="#b45309" />
+        <text x="150" y="85" font-size="30" fill="#ffffff" text-anchor="middle">📺</text>
+        
+        <text x="150" y="190" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#0f172a" text-anchor="middle">Smart TV &amp; LED</text>
+        <text x="150" y="215" font-size="13" fill="#64748b" text-anchor="middle">Layar gelap, mati total, suara hilang</text>
+        <text x="150" y="240" font-size="12" font-weight="700" fill="#b45309" text-anchor="middle">Biaya Inspeksi: Rp 50.000</text>
+        <text x="150" y="265" font-size="12" font-weight="600" fill="#059669" text-anchor="middle">● 21 Teknisi Siap Hari Ini</text>
+        
+        <g transform="translate(30, 305)">
+          <rect width="240" height="44" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+          <text x="120" y="27" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="middle">Pesan Servis TV</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- FLOATING CHATBOT WIDGET BUTTON -->
+  <g id="FloatingChatbot" transform="translate(1330, 1170)" filter="url(#shadowLg)">
+    <circle cx="35" cy="35" r="35" fill="url(#gradPrimary)" />
+    <text x="35" y="44" font-size="30" fill="#ffffff" text-anchor="middle">🤖</text>
+    <rect x="-110" y="22" width="100" height="26" rx="13" fill="#0f172a" />
+    <text x="-60" y="39" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">AI Chat 24/7</text>
+    <circle cx="62" cy="10" r="7" fill="#10b981" stroke="#ffffff" stroke-width="2" />
+  </g>
+</svg>
