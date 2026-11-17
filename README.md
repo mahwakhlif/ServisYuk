@@ -16,22 +16,22 @@
 
 ## 📌 1. Identitas Anggota Kelompok
 
-* **Nomor Kelompok:** [KELOMPOK ...] *(Silakan isi nomor kelompok Anda, contoh: Kelompok 04)*
-* **Dosen Pengampu:** [NAMA DOSEN PENGAMPU, GELAR]
-* **Program Studi / Kelas:** [PROGRAM STUDI] / [KELAS]
+* **Nomor Kelompok:** [KELOMPOK HAMBALANG]
+* **Dosen Pengampu:** [YUDHISTIRA ARIE WIJAYA, M.Kom]
+* **Program Studi / Kelas:** [TEKNIK INFORMATIKA] / [1C-TI-25
 
-| No | Nama Lengkap Anggota | NIM | Peran / Kontribusi dalam Tim |
-|:--:|:---------------------|:---:|:-----------------------------|
-| 1. | **[NAMA ANGGOTA 1]** | [NIM ANGGOTA 1] | *Project Manager & Fullstack Developer* |
-| 2. | **[NAMA ANGGOTA 2]** | [NIM ANGGOTA 2] | *Frontend & UI/UX Designer* |
-| 3. | **[NAMA ANGGOTA 3]** | [NIM ANGGOTA 3] | *Backend & AI Service Integrator* |
-| 4. | **[NAMA ANGGOTA 4]** | [NIM ANGGOTA 4] | *Database Administrator & QA Tester* |
+| No | Nama Lengkap Anggota | NIM | 
+|:--:|:---------------------|:---:|
+| 1. | **[NAMA ANGGOTA 1]** | [NIM ANGGOTA 1] 
+| 2. | **[NAMA ANGGOTA 2]** | [NIM ANGGOTA 2] 
+| 3. | **[NAMA ANGGOTA 3]** | [NIM ANGGOTA 3] 
+| 4. | **[NAMA ANGGOTA 4]** | [NIM ANGGOTA 4] 
 
 ---
 
 ## 🎯 2. Tema / Topik Kelompok
 
-**Tema Project:**  
+**Tema Project: Jasa Perbaikan Rumah**  
 > **"Rancang Bangun Sistem Informasi Layanan Jasa Perbaikan Peralatan Rumah Tangga (*Home Appliance Repair*) Terintegrasi Kecerdasan Buatan (AI Multi-Provider) dan Gateway WhatsApp Real-Time."**
 
 ---
