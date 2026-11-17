@@ -1,0 +1,79 @@
+name: ServisYuk CI Pipeline
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  php-lint:
+    name: 1. PHP Syntax Check (Lint)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP for Linting
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          coverage: none
+
+      - name: Syntax Lint All PHP Files
+        run: |
+          echo "Memeriksa sintaks seluruh file PHP..."
+          find app core config tests -type f -name "*.php" -print0 | while IFS= read -r -d '' file; do
+            php -l "$file" || exit 1
+          done
+          echo "Semua file PHP bebas dari kesalahan sintaks!"
+
+  unit-tests:
+    name: 2. PHPUnit Unit Testing
+    runs-on: ubuntu-latest
+    needs: php-lint
+    env:
+      APP_ENV: testing
+      APP_KEY: ServisYukGitHubActionCIKey2026!@#
+      DB_DATABASE: db_jasa_perbaikan_test
+      DB_USERNAME: root
+      GROQ_API_KEY: dummy_ci_key
+      FONNTE_TOKEN: dummy_ci_token
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP Environment
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, pdo, pdo_mysql, curl, openssl
+          tools: phpunit
+          coverage: none
+
+      - name: Jalankan Unit Test (Standalone Runner)
+        run: php tests/run_tests.php
+
+      - name: Jalankan Unit Test (Official PHPUnit)
+        run: phpunit --configuration phpunit.xml --testdox
+
+  node-validation:
+    name: 3. Chatbot Microservice Validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate Chatbot Server Syntax
+        run: node --check chatbot/server.js
+
+      - name: Validate JSON Configuration Files
+        run: |
+          node -e "JSON.parse(require('fs').readFileSync('chatbot/ai_config.json'))"
+          node -e "JSON.parse(require('fs').readFileSync('chatbot/database_knowledge.json'))"
+          echo "Seluruh file konfigurasi AI valid dan siap digunakan!"

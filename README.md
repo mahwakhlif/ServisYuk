@@ -6,6 +6,7 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![AI Multi-Provider](https://img.shields.io/badge/AI-Groq%20%7C%20Gemini%20%7C%20NVIDIA%20NIM-7E22CE?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/mahwakhlif/ServisYuk)
 [![Figma Ready](https://img.shields.io/badge/Figma-UI%2FUX%20Design%20Kit-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
+[![CI Pipeline](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions%20Active-success?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/mahwakhlif/ServisYuk/actions)
 
 > **Tugas Besar / Ujian Akhir Semester (UAS)**  
 > **Mata Kuliah:** Rekayasa Perangkat Lunak (RPL)  
@@ -253,27 +254,61 @@ http://localhost/jasa
 
 ---
 
-## 📁 9. Struktur Direktori Project
+## 🧪 9. Pengujian Otomatis (Unit Testing) & CI/CD Pipeline
+
+Aplikasi ServisYuk menerapkan standar pengujian perangkat lunak otomatis (*Continuous Integration*) menggunakan **GitHub Actions** dan **Unit Testing**:
+
+### 9.1 Cakupan Unit Testing
+Pengujian unit mencakup modul-modul logika inti pada direktori `tests/`:
+1. **`HelperTest.php`**: Validasi formatting mata uang Rupiah, penanggalan bahasa Indonesia, pemetaan status alur servis, sanitasi input XSS, dan generator kode booking/invoice acak.
+2. **`FonnteServiceTest.php`**: Validasi normalisasi format nomor WhatsApp internasional Indonesia (`08...`, `+628...`, `8...`), penyaringan karakter tidak valid, dan fungsi masking nomor telepon pelanggan.
+3. **`AiConfigServiceTest.php`**: Validasi integritas enkripsi dan dekripsi bolak-balik (*round-trip*) AES-256-CBC untuk token API AI, keacakan IV (*Initialization Vector*), serta ketersediaan katalog multi-provider AI (Groq, Gemini, NVIDIA NIM, OpenAI, DeepSeek, OpenRouter).
+
+### 9.2 Menjalankan Unit Test Secara Lokal
+Anda dapat menjalankan seluruh unit test langsung dari terminal:
+```bash
+# Menggunakan PHP bawaan XAMPP:
+C:\xampp\php\php.exe tests/run_tests.php
+
+# Atau jika PHP sudah terdaftar di PATH:
+php tests/run_tests.php
+```
+*Hasil pengujian akan menampilkan status `[PASS]` pada ke-22 skenario pengujian dengan tingkat keberhasilan 100%.*
+
+### 9.3 Pipeline CI/CD GitHub Actions (`.github/workflows/ci.yml`)
+Setiap kali pengembang melakukan `git push` atau membuka `Pull Request` ke branch `main`, GitHub Actions akan otomatis mengeksekusi 3 tahap verifikasi:
+1. **PHP Syntax Linting**: Memeriksa seluruh file kode PHP agar bebas dari *syntax error*.
+2. **PHPUnit Execution**: Menjalankan seluruh Unit Test pada lingkungan PHP 8.2 murni.
+3. **Chatbot Microservice Validation**: Memverifikasi integritas sintaks Node.js dan keabsahan file basis pengetahuan JSON.
+
+---
+
+## 📁 10. Struktur Direktori Project
 
 ```text
 jasa/
+├── .github/
+│   └── workflows/
+│       └── ci.yml          # Konfigurasi Continuous Integration (GitHub Actions)
 ├── assets/                 # Berkas statis: CSS kustom, JavaScript, dan library vendor
-│   ├── css/                # main.css, dashboard.css, ai-diagnosis.css, chatbot.css
-│   └── js/                 # main.js, ai-diagnostic.js, chatbot.js
 ├── chatbot/                # Microservice AI Chatbot 24 Jam (Node.js)
-│   ├── server.js           # Server HTTP proxy inferensi LLM multi-provider
-│   ├── ai_config.json      # Metadata model dan provider aktif tersinkronisasi
-│   ├── database_knowledge.json # Basis pengetahuan lokal gejala dan troubleshooting
-│   └── run_chatbot.bat     # Skrip peluncuran otomatis microservice di Windows
 ├── config/                 # Konfigurasi sistem (database.php, app.php, ai_config.php)
 ├── controllers/            # Controller MVC (Admin, Auth, Customer, Teknisi, Api)
 ├── core/                   # Layanan inti sistem (Database PDO, Auth, AiConfig, Fonnte, Otp)
 ├── database/               # Skrip DDL & DML MySQL (schema.sql, seeders.sql)
 ├── figma_export/           # Berkas vektor SVG Artboard siap import ke Figma
 ├── models/                 # Model entitas bisnis (User, Technician, Service, ServiceRequest, dll.)
+├── tests/                  # Automated Unit Testing Suite (PHPUnit & Standalone Runner)
+│   ├── bootstrap.php       # Inisialisasi lingkungan pengujian terisolasi
+│   ├── run_tests.php       # Runner pengujian mandiri tanpa dependensi tambahan
+│   ├── HelperTest.php      # Unit test utilitas helper
+│   ├── FonnteServiceTest.php # Unit test formatting WhatsApp gateway
+│   └── AiConfigServiceTest.php # Unit test enkripsi & katalog provider AI
 ├── views/                  # Tampilan antarmuka HTML/PHP berdasarkan modul dan peran
 ├── .env.example            # Template variabel lingkungan aman
 ├── .gitignore              # Daftar berkas rahasia & cache yang diabaikan Git
+├── composer.json           # Metadata project & dependensi unit testing PHP
+├── phpunit.xml             # Konfigurasi runner pengujian PHPUnit
 ├── README.md               # Dokumentasi lengkap sistem ServisYuk
 ├── index.php               # Front-controller dan router utama aplikasi
 └── *.png                   # Berkas diagram arsitektur perangkat lunak UML & ERD
@@ -281,6 +316,6 @@ jasa/
 
 ---
 
-## 📄 10. Lisensi
+## 📄 11. Lisensi
 
 Project ini dikembangkan sebagai karya akademik untuk pemenuhan tugas mata kuliah **Rekayasa Perangkat Lunak (RPL)**. Seluruh kode sumber terbuka untuk tujuan edukasi dan pembelajaran.

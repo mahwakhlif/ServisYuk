@@ -1,0 +1,21 @@
+{
+    "name": "servisyuk/servisyuk",
+    "description": "ServisYuk - Platform Layanan Jasa Perbaikan Berbasis AI",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "classmap": [
+            "core/",
+            "app/"
+        ]
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
